@@ -1,0 +1,235 @@
+
+/*-----------------------------------------------------------------------------------*/
+/*  15. Media Queries (Responsive layout styling for Smartphone, Tablet etc...)
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 320px) {
+
+	.responsive-dropdown-menu {
+		margin-top: 10px;
+		float: none;
+	}
+
+}
+
+ /* Landscape phones and down */
+  @media (max-width: 480px) { 
+  
+  #back-to-top a,
+  .flex-caption,
+  .flex-title,
+  .flex-direction-nav,
+  #sidebar {
+  	display: none;
+  }
+
+	.responsive-dropdown-menu {
+		margin-top: 20px;
+		float: none;
+	}
+
+  #social-icons-small {
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+	
+	#social-icons-small li a {
+		width: 30px;
+		height: 40px;
+	}
+
+  .header-wrap {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+	
+	#header-nav[role=navigation] {
+		margin-left: 0;
+	}
+
+  #nav-wrapper {
+    position: absolute;
+  }
+  
+  .nav-menu {
+    display: none !important;
+  }
+
+  #latest-work h1 [class^="icon-"], 
+  #latest-news h1 [class^="icon-"] {
+    padding-left: 0;
+  }
+  
+  #featured,
+  #featured .featured-button {
+  	text-align: center;
+  }
+	
+  #latest-work h1 span, 
+  #latest-work h1 a, 
+  #latest-news h1 span, 
+  #latest-news h1 a,
+  #page-title span,
+  #page-title-portfolio span,
+  #project-title span {
+    font-size: 16px;
+  }
+
+  .ribbon:after, .ribbon:before {
+    content: "";
+    position: absolute;
+    display: block;
+    border:1.3em solid #292a2c;
+}
+
+.ribbon:after {
+  top: 1.8em;
+    right: -2.2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+}
+
+.ribbon:before {
+  top: 1.8em;
+    left: -2.2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+}
+
+.meta li {
+  margin-bottom: 3px;
+}
+
+}
+ 
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 768px) {
+  
+	
+	#logo h1 img {
+	width:90px;
+	}
+  
+  	#back-to-top a,
+  	.flex-caption,
+  	.flex-title,
+  	.flex-direction-nav,
+    .slide-out-div {
+  		display: none;
+  	}
+  
+  
+  	body {
+  		padding-left: 0;
+  		padding-right: 0;
+  	}
+  	
+  	.container {
+
+  	}
+  	
+  	.responsive-dropdown-menu {
+  		margin-top: 20px;
+  		float: none;
+  	}
+
+    .header-wrap {
+    margin-top: 0;
+    margin-bottom: 20px;
+    }
+
+    .mission-statement h3, 
+    .mission-statement h3 a {
+      font-size: 17px !important;
+    }
+
+    #latest-work h1, 
+    #latest-news h1 {
+      text-align: center;
+    }
+
+    #latest-work h1 [class^="icon-"], 
+    #latest-news h1 [class^="icon-"] {
+      padding-left: 0;
+    }
+
+    .nav-menu {
+      display: none !important;
+    }
+
+    #services .span3 {
+      margin-bottom: 40px;
+    }
+    	
+    #header-nav[role=navigation] {
+    	margin-left: 0;
+    }
+    
+    #nav-wrapper {
+      position: absolute;
+    }
+    
+    #social-icons-small {
+      float: none;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    #featured,
+    #featured .featured-button {
+    	text-align: center;
+    }
+    
+    .media-box h2, 
+    .latest-article h2 {
+    	font-size: 12px;
+    }
+
+}
+ 
+  /* Portrait tablet to landscape and desktop */
+  @media (min-width: 768px) and (max-width: 1200px) {
+  
+  	.nav-menu {
+  		display: none !important;
+  	}
+  	
+  	.responsive-dropdown-menu {
+  		margin-top: 10px;
+  		float: left;
+  	}
+
+    .flex-container {
+      margin-left: 20px;
+    }
+  	
+  	.flex-title {
+  		font-size: 30px;
+      margin-bottom: 10px;
+  	}
+  	
+  	.flex-caption {
+  		font-size: 13px;
+      margin-left: -15px;
+  	}
+
+    .media-box h2, 
+    .latest-article h2 {
+      font-size: 14px;
+    }
+
+}
+ 
+  /* Large desktop */
+  @media (min-width: 1200px) { 
+  
+  	.responsive-dropdown-menu {
+      display: none !important;
+    }
+
+    .flex-container {
+      margin: 0;
+    }
+
+}

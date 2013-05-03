@@ -1,0 +1,14 @@
+div.mr_social_sharing, span.mr_social_sharing, div.mr_social_sharing_top, span.mr_social_sharing_top {
+margin:0;
+}
+
+div.mr_social_sharing_wrapper {
+text-align:center;
+padding: 120px 0 150px;
+margin: 2px 0;
+border-bottom: 1px solid #E2DDD0;
+}
+
+div.social-share-line {
+background: url(../../wp-content/themes/revelryhouse/img/share-line.png) no-repeat center center;
+}

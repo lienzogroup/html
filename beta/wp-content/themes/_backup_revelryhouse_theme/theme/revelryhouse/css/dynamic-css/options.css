@@ -1,0 +1,93 @@
+/*---------------------- Body --------------------------*/
+
+body {
+	background-color: ;
+}
+
+body, 
+p, 
+input,
+button,
+select,
+textarea,
+.navbar-search .search-query {
+	color: #000000;
+	font-family:'Univers LT W01 45 Light';
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal; 
+}
+
+.mission-statement h3, .mission-statement h3 a {
+	color: #000000;
+	font-family: 'Didot W01 Bold';
+	font-size: 22px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1, .h1, h1 a, h2, .h2, h2 a, h3, .h3, h3 a, h4, .h4, h4 a, h5, .h5, h5 a, #sidebar h4.widget-title, #sidebar .widgetitle a {
+	color: #000000;
+	font-family: 'Didot W01 Bold';
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1#logo-default, h1#logo-default a {
+	color: #000000;
+	font-family: 'Didot W01 Bold';
+	font-size: 39px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#submit, #custom-contact-form #submit-button, #custom-contact-form input, #custom-contact-form select, #custom-contact-form textarea, .respond-form input[type="text"], .respond-form input[type="email"], .respond-form input[type="url"], .respond-form textarea, .page-strapline, #latest-projects h2, #latest-articles h2, .post p:first-of-type:first-letter {
+	font-family:'Univers LT W01 45 Light';
+}
+
+
+#header-nav[role=navigation] ul ul {
+	border-top: 2px solid #000;
+}
+
+#header-nav[role=navigation] ul a:hover,
+#header-nav[role=navigation] ul li.sfHover > a,
+#header-nav[role=navigation] ul li.current-cat > a,
+#header-nav[role=navigation] ul li.current_page_item > a,
+#header-nav[role=navigation] ul li.current-menu-item > a,
+#back-to-top a:hover,
+.view-first:hover .mask,
+.double:after,
+.pager a:hover {
+	background-color: #000; 
+}
+
+a,
+#footer-global a,
+.mission-statement span,
+#featured span,
+#latest-work h1 a:hover, 
+#latest-news h1 a:hover,
+.view-more span .icon-plus,
+.blog-index h1 a:hover,
+.latest-news-excerpt h3 a:hover,
+#logo [class^="icon-"],
+#header-nav[role=navigation] ul ul li a:hover,
+#header-nav[role=navigation] ul ul li.current-cat > a,
+#header-nav[role=navigation] ul ul li.current_page_item > a,
+#header-nav[role=navigation] ul ul li.current-menu-item > a {
+	color: #000;
+}
+
+.flex-control-nav li a:hover,
+.flex-control-nav li a.active {
+	background: #000;
+}
+
+.widget img:hover,
+#related-projects img:hover {
+	border: 1px solid #000;
+}
+
+/*---------------------- Custom CSS (Added from the Theme Options panel) --------------------------*/
+

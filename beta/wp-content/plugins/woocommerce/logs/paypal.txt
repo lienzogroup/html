@@ -1,0 +1,1362 @@
+03-19-2013 @ 17:23:42 - Generating payment form for order #920. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-19-2013 @ 17:28:50 - Generating payment form for order #920. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-19-2013 @ 17:31:19 - Generating payment form for order #920. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-19-2013 @ 17:36:11 - Generating payment form for order #920. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-19-2013 @ 17:44:05 - Generating payment form for order #921. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-19-2013 @ 17:44:59 - Generating payment form for order #921. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-19-2013 @ 17:45:41 - Generating payment form for order #921. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-19-2013 @ 17:46:14 - Generating payment form for order #921. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 05:55:18 - Generating payment form for order #922. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 06:27:44 - Generating payment form for order #922. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 06:30:40 - Generating payment form for order #922. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 06:31:27 - Checking IPN response is valid...
+03-20-2013 @ 06:31:28 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Wed, 20 Mar 2013 06:31:27 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=IfXVqwF_YQ9h1_9zfw5MnyJ6ro8rzedo2gP76qjP9btFWpr_fvnqFQ8BF0Ej6C_xwJlDrMKRBTJmAOG7stRusOnEJ948oR2EsIjkbFyH933hC071lrVhCXaKYXwR8QqPUrKy3G%7c4e1vwjWc8gGWUXzEdyT-2O3tTYu9JfWV914ISSbwntT8dwOjcNw2yFcpKaNxZmOGEoAW1W%7cAmBQ_TBlPNvgii5P-FezvzgNJkyhmACuTMzjLE_Q3lgMOEfs5Kg1vHA-gklfHVMz3dqu10%7c1363761088; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 18-Mar-2023 06:31:28 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 15-Mar-2033 06:31:28 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363761087696154; path=/; expires=Fri, 13-Mar-43 06:31:27 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => IfXVqwF_YQ9h1_9zfw5MnyJ6ro8rzedo2gP76qjP9btFWpr_fvnqFQ8BF0Ej6C_xwJlDrMKRBTJmAOG7stRusOnEJ948oR2EsIjkbFyH933hC071lrVhCXaKYXwR8QqPUrKy3G|4e1vwjWc8gGWUXzEdyT-2O3tTYu9JfWV914ISSbwntT8dwOjcNw2yFcpKaNxZmOGEoAW1W|AmBQ_TBlPNvgii5P-FezvzgNJkyhmACuTMzjLE_Q3lgMOEfs5Kg1vHA-gklfHVMz3dqu10|1363761088
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679121088
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994481088
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363761087696154
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-20-2013 @ 06:31:28 - Received valid response from PayPal
+03-20-2013 @ 06:31:28 - Payment status: completed
+03-20-2013 @ 06:31:28 - Payment complete.
+03-20-2013 @ 06:44:11 - Generating payment form for order #923. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 06:44:56 - Generating payment form for order #923. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 06:58:52 - Generating payment form for order #924. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:00:39 - Checking IPN response is valid...
+03-20-2013 @ 07:00:39 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Wed, 20 Mar 2013 07:00:39 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=db_oDltl1ybI91EH1gQDPKOi6Tig-HAgHfGfr_uM38TkzAS4D7641_O1H6xXR3S6ccDpmVHl3sYlDQGq-0JXV151W8pNQpzI7eRZrWgJ3CyM1m-hMk5P5YPmw2mUtbxnKKM7XW%7c0Nql1OYxD4Wh3TvXL1H_N3XGvneALCV4TelMeUOwspmJp8JXqIoRqhpnGURgvBHrR38NUm%7cwlzeYlhuP3hL7FqGBj2fWy25iIH9pNIDqvxiOoqXOw_wPxSKgtZWcmvwLN41l7IoSF0yvm%7c1363762839; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 18-Mar-2023 07:00:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 15-Mar-2033 07:00:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363762839336353; path=/; expires=Fri, 13-Mar-43 07:00:39 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => db_oDltl1ybI91EH1gQDPKOi6Tig-HAgHfGfr_uM38TkzAS4D7641_O1H6xXR3S6ccDpmVHl3sYlDQGq-0JXV151W8pNQpzI7eRZrWgJ3CyM1m-hMk5P5YPmw2mUtbxnKKM7XW|0Nql1OYxD4Wh3TvXL1H_N3XGvneALCV4TelMeUOwspmJp8JXqIoRqhpnGURgvBHrR38NUm|wlzeYlhuP3hL7FqGBj2fWy25iIH9pNIDqvxiOoqXOw_wPxSKgtZWcmvwLN41l7IoSF0yvm|1363762839
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679122839
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994482839
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363762839336353
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-20-2013 @ 07:00:39 - Received valid response from PayPal
+03-20-2013 @ 07:00:39 - Payment status: completed
+03-20-2013 @ 07:01:02 - Payment complete.
+03-20-2013 @ 07:18:10 - Generating payment form for order #923. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:23:21 - Generating payment form for order #925. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:24:47 - Generating payment form for order #925. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:25:26 - Checking IPN response is valid...
+03-20-2013 @ 07:25:56 - IPN Response: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => connect() timed out!
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+03-20-2013 @ 07:25:56 - Received invalid response from PayPal
+03-20-2013 @ 07:34:26 - Generating payment form for order #926. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:35:45 - Generating payment form for order #927. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:39:49 - Generating payment form for order #928. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:46:45 - Generating payment form for order #929. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:49:14 - Generating payment form for order #929. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:50:08 - Checking IPN response is valid...
+03-20-2013 @ 07:50:09 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Wed, 20 Mar 2013 07:50:08 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=0Tihu25uu8Rl0WEH4BKjaEfajBiLRR3VK6g7bExzlLsKGpyakX7A6AOamZcX8zhIJd1zc_1QQo1_UVeoGGz3CBTELDBDUkP8ubTtN7GMKDUwho85IKvtWBSqO5Y-x8pyNoNf_G%7cy3RJx7IgTG8OTrZDxrPmWFioV7cc14XmYTQFVJGwt9oGa0iQQM3S0YfupOSCSb6_S2USyG%7cD73Av8JbR9fagZo8IbUVAtMYPWikWkaPuTeXFhdVK23K1qKawZxXVhMI6_qcxeZOoGW49m%7c1363765809; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 18-Mar-2023 07:50:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 15-Mar-2033 07:50:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363765808875653; path=/; expires=Fri, 13-Mar-43 07:50:08 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => 0Tihu25uu8Rl0WEH4BKjaEfajBiLRR3VK6g7bExzlLsKGpyakX7A6AOamZcX8zhIJd1zc_1QQo1_UVeoGGz3CBTELDBDUkP8ubTtN7GMKDUwho85IKvtWBSqO5Y-x8pyNoNf_G|y3RJx7IgTG8OTrZDxrPmWFioV7cc14XmYTQFVJGwt9oGa0iQQM3S0YfupOSCSb6_S2USyG|D73Av8JbR9fagZo8IbUVAtMYPWikWkaPuTeXFhdVK23K1qKawZxXVhMI6_qcxeZOoGW49m|1363765809
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679125809
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994485809
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363765808875653
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-20-2013 @ 07:50:09 - Received valid response from PayPal
+03-20-2013 @ 07:50:09 - Payment status: completed
+03-20-2013 @ 07:50:09 - Payment complete.
+03-20-2013 @ 07:51:28 - Generating payment form for order #930. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 07:53:34 - Generating payment form for order #931. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:01:23 - Generating payment form for order #930. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:05:38 - Generating payment form for order #932. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:07:29 - Generating payment form for order #932. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:16:26 - Generating payment form for order #933. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:17:51 - Checking IPN response is valid...
+03-20-2013 @ 08:17:52 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Wed, 20 Mar 2013 08:17:51 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=mE1OBmCsTfNni9fXcktwZZ1-k7Fh4t1cGZrFrCNvfD6sL2wJJ1JZ9rARhTRlkd_-dNREJkobbwItwdj5hB3_LyjPP2eUL5ukpxujJehwW1x5zFQ6sn5yg3co8JvUra96FdCkuW%7cY7mf8fCURD_ESR-gKx1Tm1qgVlyAUOCXVBmA_zD2nXTaNXkFBCZ2rRnEVer-Uvuz0qoCVW%7cMxTvx2JEtWLA3HVXYbCG1PVHy3UVsfqeTdwKVGVvgeHdkeKs4tkfyjeGEBrGLGGnbByI80%7c1363767472; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 18-Mar-2023 08:17:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 15-Mar-2033 08:17:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363767471650053; path=/; expires=Fri, 13-Mar-43 08:17:51 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => mE1OBmCsTfNni9fXcktwZZ1-k7Fh4t1cGZrFrCNvfD6sL2wJJ1JZ9rARhTRlkd_-dNREJkobbwItwdj5hB3_LyjPP2eUL5ukpxujJehwW1x5zFQ6sn5yg3co8JvUra96FdCkuW|Y7mf8fCURD_ESR-gKx1Tm1qgVlyAUOCXVBmA_zD2nXTaNXkFBCZ2rRnEVer-Uvuz0qoCVW|MxTvx2JEtWLA3HVXYbCG1PVHy3UVsfqeTdwKVGVvgeHdkeKs4tkfyjeGEBrGLGGnbByI80|1363767472
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679127472
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994487472
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363767471650053
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-20-2013 @ 08:17:52 - Received valid response from PayPal
+03-20-2013 @ 08:17:52 - Payment status: completed
+03-20-2013 @ 08:17:52 - Payment complete.
+03-20-2013 @ 08:27:14 - Generating payment form for order #934. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:36:56 - Generating payment form for order #935. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:37:59 - Checking IPN response is valid...
+03-20-2013 @ 08:37:59 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Wed, 20 Mar 2013 08:37:59 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=6UNsBwnDMNYM8VLqkr7vH6aADICHzmxiJ4ow4K1rWKeug9oBBaWcNem57TC_adTm84IcTuRjsdW_wVDRXwoC2PC9QhfeXRoxTnKHpCXjt0_lUuTwlCOLjK7sOkL2EHwvkfQ7q0%7c9La8zdGSFiyHDLipxAWOafNhs9_c4QQBLpUHlpDcjmKCUA0633DdM3Mdo1TMs9I8TrfU8m%7cYR88Bi8mYTMGiaAmDqUqC7JGUF5NfipGzhmPDBty1hq6t7RIBF7dls83gq5-txqJzeO-v0%7c1363768679; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 18-Mar-2023 08:37:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 15-Mar-2033 08:37:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363768679255112; path=/; expires=Fri, 13-Mar-43 08:37:59 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => 6UNsBwnDMNYM8VLqkr7vH6aADICHzmxiJ4ow4K1rWKeug9oBBaWcNem57TC_adTm84IcTuRjsdW_wVDRXwoC2PC9QhfeXRoxTnKHpCXjt0_lUuTwlCOLjK7sOkL2EHwvkfQ7q0|9La8zdGSFiyHDLipxAWOafNhs9_c4QQBLpUHlpDcjmKCUA0633DdM3Mdo1TMs9I8TrfU8m|YR88Bi8mYTMGiaAmDqUqC7JGUF5NfipGzhmPDBty1hq6t7RIBF7dls83gq5-txqJzeO-v0|1363768679
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679128679
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994488679
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363768679255112
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-20-2013 @ 08:37:59 - Received valid response from PayPal
+03-20-2013 @ 08:37:59 - Payment status: completed
+03-20-2013 @ 08:37:59 - Payment complete.
+03-20-2013 @ 08:38:03 - Generating payment form for order #936. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:53:36 - Generating payment form for order #937. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:56:22 - Generating payment form for order #938. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 08:57:03 - Checking IPN response is valid...
+03-20-2013 @ 08:57:04 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Wed, 20 Mar 2013 08:57:03 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=AZoqKj9ZjulP_YcV8X4H34p0eaOI1IqjC9d66kIpubGe52SJAFrJZkrEcYOZzY5vgBPsTpM1vFR5ZxLgGC0-RL4kcUWWwK9QsEUKRJc8iIJdE9E4qkYr25P3M-ydbGajlMIDS0%7cmjxAJ96R2azSctWDfSPBAd9kyQYy3Fg0avJkSBIEUsQTr6TQhzmEg28zG2qTMFIyEJi-o0%7cDclu4Y4KHbGkJyjjz5plniZx8AJnGp9yvzBQrmyDhV_5eko8UxbcEqXJsyGPP3qrtB12lm%7c1363769824; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 18-Mar-2023 08:57:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 15-Mar-2033 08:57:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363769823974668; path=/; expires=Fri, 13-Mar-43 08:57:03 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => AZoqKj9ZjulP_YcV8X4H34p0eaOI1IqjC9d66kIpubGe52SJAFrJZkrEcYOZzY5vgBPsTpM1vFR5ZxLgGC0-RL4kcUWWwK9QsEUKRJc8iIJdE9E4qkYr25P3M-ydbGajlMIDS0|mjxAJ96R2azSctWDfSPBAd9kyQYy3Fg0avJkSBIEUsQTr6TQhzmEg28zG2qTMFIyEJi-o0|Dclu4Y4KHbGkJyjjz5plniZx8AJnGp9yvzBQrmyDhV_5eko8UxbcEqXJsyGPP3qrtB12lm|1363769824
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679129824
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994489824
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363769823974668
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-20-2013 @ 08:57:04 - Received valid response from PayPal
+03-20-2013 @ 08:57:04 - Payment status: completed
+03-20-2013 @ 08:57:04 - Payment complete.
+03-20-2013 @ 09:06:27 - Generating payment form for order #939. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-20-2013 @ 09:07:21 - Checking IPN response is valid...
+03-20-2013 @ 09:07:22 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Wed, 20 Mar 2013 09:07:21 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=4blv4Qvsny7CXAIaSsUqb-RGHYj658APNPpzLKRqxbpswvH6O_1sM8ZgQqUsfLAchePeRA2c6Hag95lVqspcI2T_QCuYTyOI4FqEt0QJPSFYutOBfhzNe6fDKtoV_TlDORlAdW%7cRH6WfznmIVAKJm_X3UVEDOCF8NXi9FvEQfxZuKdtfCuPf_fD3XgZeFyF2hlw2WPER_PEp0%7c-i956_72bs3qnhZgh_LipwDsgU1QICHIFv5SK03FvtlikuRkn42vpghxiOVzcBSKKdtoOm%7c1363770441; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 18-Mar-2023 09:07:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 15-Mar-2033 09:07:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363770441455313; path=/; expires=Fri, 13-Mar-43 09:07:21 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => 4blv4Qvsny7CXAIaSsUqb-RGHYj658APNPpzLKRqxbpswvH6O_1sM8ZgQqUsfLAchePeRA2c6Hag95lVqspcI2T_QCuYTyOI4FqEt0QJPSFYutOBfhzNe6fDKtoV_TlDORlAdW|RH6WfznmIVAKJm_X3UVEDOCF8NXi9FvEQfxZuKdtfCuPf_fD3XgZeFyF2hlw2WPER_PEp0|-i956_72bs3qnhZgh_LipwDsgU1QICHIFv5SK03FvtlikuRkn42vpghxiOVzcBSKKdtoOm|1363770441
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679130441
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994490441
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363770441455313
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-20-2013 @ 09:07:22 - Received valid response from PayPal
+03-20-2013 @ 09:07:22 - Payment status: completed
+03-20-2013 @ 09:07:23 - Payment complete.
+03-20-2013 @ 15:19:01 - Generating payment form for order #940. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 07:45:30 - Generating payment form for order #941. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 07:46:53 - Checking IPN response is valid...
+03-21-2013 @ 07:46:54 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Thu, 21 Mar 2013 07:46:53 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=Mf8fVZLxVQ1OjRhaVr9MILZDUnN9EXuSBk39sM19znJY9xC7sAPaGl8bgjiH69BXNpYoyvGKXk6C0rAAV8cTLO_7MEjxT4z9O_NW8UQ2XhuVmQYSuckrpLSQZDdm74PHphkoLW%7crWVclmoWTETj_sTgrbMhPYZWLsBf0jiy3j0vQDrOSYsG4sLispiYkAo_KVAc672QvSvleG%7cn5fwLNGUWKRyEw-T4-TfXvfWHAcviC7LVkNxYG1eqvFBmxBUT-AREYHgk0G6HhFXsGpDcm%7c1363852014; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sun, 19-Mar-2023 07:46:54 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 16-Mar-2033 07:46:54 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363852013799036; path=/; expires=Sat, 14-Mar-43 07:46:53 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => Mf8fVZLxVQ1OjRhaVr9MILZDUnN9EXuSBk39sM19znJY9xC7sAPaGl8bgjiH69BXNpYoyvGKXk6C0rAAV8cTLO_7MEjxT4z9O_NW8UQ2XhuVmQYSuckrpLSQZDdm74PHphkoLW|rWVclmoWTETj_sTgrbMhPYZWLsBf0jiy3j0vQDrOSYsG4sLispiYkAo_KVAc672QvSvleG|n5fwLNGUWKRyEw-T4-TfXvfWHAcviC7LVkNxYG1eqvFBmxBUT-AREYHgk0G6HhFXsGpDcm|1363852014
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679212014
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994572014
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363852013799036
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-21-2013 @ 07:46:54 - Received valid response from PayPal
+03-21-2013 @ 07:46:54 - Payment status: completed
+03-21-2013 @ 07:46:54 - Payment complete.
+03-21-2013 @ 07:47:04 - Generating payment form for order #942. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 07:49:42 - Checking IPN response is valid...
+03-21-2013 @ 07:49:43 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Thu, 21 Mar 2013 07:49:42 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=tRWxdwrejHFlwU7sgPjcEor0xGdmYaJc2BwIBb9OnqwxGddzyeeG9kMPLP1famZk-wlifMlHVUAjwI8C0zsuZgryKbXaRdkMibSjzIV6PIp7kyoGMIBBoTGHWBHFqjHmjHDekm%7cDGIGTUf2_MRjOQceRDg4wGWxMJjINF7sW7KLe7pz9ZBqWe3GbWxocBrl8jrwh9CCHSHRxm%7cHgg0pkR3Jl4-SHuxX4IYe4beTv-V7_0kVc6YKVoKh67OlUohZuahj3Gs4MymUnbsc5TDCG%7c1363852183; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sun, 19-Mar-2023 07:49:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 16-Mar-2033 07:49:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363852182603986; path=/; expires=Sat, 14-Mar-43 07:49:42 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => tRWxdwrejHFlwU7sgPjcEor0xGdmYaJc2BwIBb9OnqwxGddzyeeG9kMPLP1famZk-wlifMlHVUAjwI8C0zsuZgryKbXaRdkMibSjzIV6PIp7kyoGMIBBoTGHWBHFqjHmjHDekm|DGIGTUf2_MRjOQceRDg4wGWxMJjINF7sW7KLe7pz9ZBqWe3GbWxocBrl8jrwh9CCHSHRxm|Hgg0pkR3Jl4-SHuxX4IYe4beTv-V7_0kVc6YKVoKh67OlUohZuahj3Gs4MymUnbsc5TDCG|1363852183
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679212183
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994572183
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363852182603986
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-21-2013 @ 07:49:43 - Received valid response from PayPal
+03-21-2013 @ 07:49:43 - Payment status: completed
+03-21-2013 @ 07:49:43 - Payment complete.
+03-21-2013 @ 07:52:53 - Generating payment form for order #943. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 07:54:25 - Checking IPN response is valid...
+03-21-2013 @ 07:54:55 - IPN Response: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => connect() timed out!
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+03-21-2013 @ 07:54:55 - Received invalid response from PayPal
+03-21-2013 @ 07:57:54 - Generating payment form for order #944. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 07:58:08 - Generating payment form for order #943. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 07:59:42 - Checking IPN response is valid...
+03-21-2013 @ 07:59:43 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Thu, 21 Mar 2013 07:59:43 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=nBP5z4QtnKejq_WRmCrkaYf7uShD6sWhzlnpYtE9T38xvzUGrt2H4PmYHBR-0gIEwTJXpyuH_c3YeOfMZNncUPbain1Caby8-28HiKaUA-UeumHoSx12MJ-iHmeq8nrWkc2sSG%7cGC1cInA3FmM3wD1Lh1nKdn6oFED_Yf8jlB-tjRHQx32YSnop_MSVl7cw4eipIeUd5ufpU0%7c5emYMvFaQ_CufYKLxQfdxaJN9-5K91hQYSx5dud40vp5Pe7ChUwZ0WruEXa3yHUp9DkdRG%7c1363852783; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sun, 19-Mar-2023 07:59:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 16-Mar-2033 07:59:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363852783036898; path=/; expires=Sat, 14-Mar-43 07:59:43 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => nBP5z4QtnKejq_WRmCrkaYf7uShD6sWhzlnpYtE9T38xvzUGrt2H4PmYHBR-0gIEwTJXpyuH_c3YeOfMZNncUPbain1Caby8-28HiKaUA-UeumHoSx12MJ-iHmeq8nrWkc2sSG|GC1cInA3FmM3wD1Lh1nKdn6oFED_Yf8jlB-tjRHQx32YSnop_MSVl7cw4eipIeUd5ufpU0|5emYMvFaQ_CufYKLxQfdxaJN9-5K91hQYSx5dud40vp5Pe7ChUwZ0WruEXa3yHUp9DkdRG|1363852783
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679212783
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994572783
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363852783036898
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-21-2013 @ 07:59:43 - Received valid response from PayPal
+03-21-2013 @ 07:59:43 - Payment status: completed
+03-21-2013 @ 07:59:44 - Payment complete.
+03-21-2013 @ 08:03:21 - Generating payment form for order #945. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 08:06:47 - Checking IPN response is valid...
+03-21-2013 @ 08:06:48 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Thu, 21 Mar 2013 08:06:48 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=UEb3mb7XE4Oa8PiUiC78CfY0qFuLIGc0gdAdnc1DFJEjfi1RVjLA_82wQUKJEkSkAOB1ztsIx72EFdSAGyuKHMC5YcX1xUpKCNIudhLU0HFdBb43AC6w5aBoc8JRGW34r0fOzm%7cdsCoZBmVVJP5iPGReW-8Ngj8oH8Maxu84HjphtQW3y8W8H4ydnuVz69rcqMzROsZyT34I0%7cQo3DoV1bQaJXMJEJSfQ7pBVd28sZOG6eELXuEzOnJcpTSp9kjWp-Bh5UxKL_ofdnqaRdIG%7c1363853208; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sun, 19-Mar-2023 08:06:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 16-Mar-2033 08:06:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363853208167641; path=/; expires=Sat, 14-Mar-43 08:06:48 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => UEb3mb7XE4Oa8PiUiC78CfY0qFuLIGc0gdAdnc1DFJEjfi1RVjLA_82wQUKJEkSkAOB1ztsIx72EFdSAGyuKHMC5YcX1xUpKCNIudhLU0HFdBb43AC6w5aBoc8JRGW34r0fOzm|dsCoZBmVVJP5iPGReW-8Ngj8oH8Maxu84HjphtQW3y8W8H4ydnuVz69rcqMzROsZyT34I0|Qo3DoV1bQaJXMJEJSfQ7pBVd28sZOG6eELXuEzOnJcpTSp9kjWp-Bh5UxKL_ofdnqaRdIG|1363853208
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679213208
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994573208
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363853208167641
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-21-2013 @ 08:06:48 - Received valid response from PayPal
+03-21-2013 @ 08:06:48 - Payment status: completed
+03-21-2013 @ 08:06:50 - Payment complete.
+03-21-2013 @ 08:08:51 - Generating payment form for order #946. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 08:09:46 - Checking IPN response is valid...
+03-21-2013 @ 08:09:47 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Thu, 21 Mar 2013 08:09:46 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=aUePIqDFaSQdABScOhIThagUilwPl5QsZx2Wulizyq56IE_rh8Vm90nvLJfUkOAxNrznSXoEGC-HIUZNMIompBCbLOivgYbEK2GpUWVpSnl8RrPdEVJCJ783105_1qJ9OKhZKm%7ccAD69yxe5sXVZi2Bh_J0ggssX2HlQ4cF8_LBUORX2mWb6C3wUn-1oFKbFmXt7ALzKv3K3m%7cmTvEMiVbNrZZF4nuGfjcJeYItiuZPSrPYZ3QGaxc2vVMlv0ZrMAnzsQ--a_AsMfVb8JjnW%7c1363853387; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sun, 19-Mar-2023 08:09:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 16-Mar-2033 08:09:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363853386738825; path=/; expires=Sat, 14-Mar-43 08:09:46 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => aUePIqDFaSQdABScOhIThagUilwPl5QsZx2Wulizyq56IE_rh8Vm90nvLJfUkOAxNrznSXoEGC-HIUZNMIompBCbLOivgYbEK2GpUWVpSnl8RrPdEVJCJ783105_1qJ9OKhZKm|cAD69yxe5sXVZi2Bh_J0ggssX2HlQ4cF8_LBUORX2mWb6C3wUn-1oFKbFmXt7ALzKv3K3m|mTvEMiVbNrZZF4nuGfjcJeYItiuZPSrPYZ3QGaxc2vVMlv0ZrMAnzsQ--a_AsMfVb8JjnW|1363853387
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679213387
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994573387
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363853386738825
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-21-2013 @ 08:09:47 - Received valid response from PayPal
+03-21-2013 @ 08:09:47 - Payment status: completed
+03-21-2013 @ 08:09:47 - Payment complete.
+03-21-2013 @ 08:10:03 - Generating payment form for order #944. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 08:15:52 - Generating payment form for order #947. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 08:16:46 - Checking IPN response is valid...
+03-21-2013 @ 08:16:47 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Thu, 21 Mar 2013 08:16:47 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=iXRu6FuODqtxFKF5X2oxjpVkxy4PvXYq3ZCiEOj9ILZKofHOPyL_0pmNm-Rbz8GaoGZ321BT0RwQwNkiEwQzzy0Kf8PiLRumVnKVfqYVMNtZN2pmQJ0dCLRsIszYN-q9dyh0aG%7cZ6qJ_klehMs7-mnAr2tf7_PoNhlCj9lLQhNWkK1WbkQuqmo9HdyJ62EFURMv1cDzdraxQ0%7c3zcr64rWaDVdbNPp6aq1KrWA7szd4bQQrRoW2hmI79tHdKFleZN-AdUQfsk6omcIW23PnW%7c1363853807; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sun, 19-Mar-2023 08:16:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 16-Mar-2033 08:16:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363853807233928; path=/; expires=Sat, 14-Mar-43 08:16:47 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => iXRu6FuODqtxFKF5X2oxjpVkxy4PvXYq3ZCiEOj9ILZKofHOPyL_0pmNm-Rbz8GaoGZ321BT0RwQwNkiEwQzzy0Kf8PiLRumVnKVfqYVMNtZN2pmQJ0dCLRsIszYN-q9dyh0aG|Z6qJ_klehMs7-mnAr2tf7_PoNhlCj9lLQhNWkK1WbkQuqmo9HdyJ62EFURMv1cDzdraxQ0|3zcr64rWaDVdbNPp6aq1KrWA7szd4bQQrRoW2hmI79tHdKFleZN-AdUQfsk6omcIW23PnW|1363853807
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679213807
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994573807
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363853807233928
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-21-2013 @ 08:16:47 - Received valid response from PayPal
+03-21-2013 @ 08:16:47 - Payment status: completed
+03-21-2013 @ 08:16:48 - Payment complete.
+03-21-2013 @ 08:24:48 - Generating payment form for order #948. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-21-2013 @ 08:25:58 - Checking IPN response is valid...
+03-21-2013 @ 08:25:59 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Thu, 21 Mar 2013 08:25:58 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=T7_aIhH0U2O5PsNRBUnQqgJMB0dQA8Wa8iEDUa9Iq7OHJ6i2mXBHGL09xhinoVeNl1p7L4mQ5OzZlq-zrgSa-hh6m8hebYS7FO7nliohs3YpFopp3wjY8QQSKm3kHpF_GXclWG%7c8fnF_uFLRtiHuhXuWJK0nGAAStFV0jIdeeHtUNtZwu5RLckvHfY_4wAGt4F67ikWxKPRzm%7cFZbgVhqc7StRn08v_d0FaZmO9i_o3FmIMUMAPAAyEIhDMW2c1eSAubnMojgprHZRrr3-EW%7c1363854359; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sun, 19-Mar-2023 08:25:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 16-Mar-2033 08:25:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1363854358656262; path=/; expires=Sat, 14-Mar-43 08:25:58 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => T7_aIhH0U2O5PsNRBUnQqgJMB0dQA8Wa8iEDUa9Iq7OHJ6i2mXBHGL09xhinoVeNl1p7L4mQ5OzZlq-zrgSa-hh6m8hebYS7FO7nliohs3YpFopp3wjY8QQSKm3kHpF_GXclWG|8fnF_uFLRtiHuhXuWJK0nGAAStFV0jIdeeHtUNtZwu5RLckvHfY_4wAGt4F67ikWxKPRzm|FZbgVhqc7StRn08v_d0FaZmO9i_o3FmIMUMAPAAyEIhDMW2c1eSAubnMojgprHZRrr3-EW|1363854359
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679214359
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994574359
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1363854358656262
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-21-2013 @ 08:25:59 - Received valid response from PayPal
+03-21-2013 @ 08:25:59 - Payment status: completed
+03-21-2013 @ 08:25:59 - Payment complete.
+03-25-2013 @ 10:16:47 - Generating payment form for order #954. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-25-2013 @ 17:43:11 - Generating payment form for order #962. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-25-2013 @ 18:08:54 - Generating payment form for order #970. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-25-2013 @ 18:19:10 - Generating payment form for order #974. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN
+03-26-2013 @ 07:24:09 - Generating payment form for order #1035. Notify URL: http://s159842.gridserver.com/beta/?paypalListener=paypal_standard_IPN

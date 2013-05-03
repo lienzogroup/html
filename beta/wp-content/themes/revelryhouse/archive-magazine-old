@@ -1,0 +1,20 @@
+<!-- <article class="magazine-article post-<?php the_ID();?> magazine-landing-post-<?php echo $count; ?>">
+			<div class="magazine-category">
+				<?php echo '<span>'. $categories[0]->name .'</span>'; ?>
+			</div>
+			<div class="magazine-title magazine-title-<?php echo $count; ?>">
+				<a title="<?php echo the_title(); ?>" href="<?php echo the_permalink(); ?>">
+					<?php echo the_title(); ?>
+				</a>
+			</div>
+			<div class="magazine-author">
+				<?php echo 'By: '. get_the_author(); ?>
+			</div>
+			<div class="magazine-excerpt">
+				<?php echo the_excerpt(); ?>
+			</div>
+			<div class="magazine-featured-image magazine-image-<?php echo $count; ?>">
+				<?php echo the_post_thumbnail('365x268'); ?>
+			</div>
+		</article>
+		<div class="magazine-separator"></div> -->

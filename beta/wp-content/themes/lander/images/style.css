@@ -1,0 +1,224 @@
+html, body, div, ul, li, input, select, textarea, form, p, dl, dt, dd, h1, h2, h3, h4, h5, h6 {	margin:0;	padding:0;  }
+body {background-color:#000;font-family:Arial, Helvetica, sans-serif; font-size:1em;  color:#000;  padding-bottom:6.5em; }
+/*=============== Global Styles starts here =========================*/
+
+.body {opacity:0.45;
+filter:alpha(opacity=45) ;
+ /* For IE8 and earlier */ position:relative; }
+
+
+@font-face {
+ font-family: didot;
+ src: url(../images/didot.eot) /* EOT file for IE */
+}
+@font-face {
+ font-family: didot;
+ src: url(../images/didot.ttf) /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+	font-family: didotItalic;
+	src: url(..images/DidotLTStd-Italic.eot) 
+	}
+
+@font-face {
+	font-family: didotItalic;
+	src: url(..images/DidotLTStd-Italic.ttf) 
+	}
+
+
+@font-face {
+ font-family: universltstdlightultracn;
+ src: url("../images/universltstdlightultracn.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: universltstdlightultracn;
+ src: url("../images/universltstdlightultracn.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: universltstdlight;
+ src: url("../images/universltstdlight.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: universltstdlight;
+ src: url("../images/universltstdlight.ttf") /* TTF file for CSS3 browsers */
+}
+
+/*================= font generator end  ===========================*/
+
+.sign-in-sec {width:100%; margin:0  auto;/* padding:0 238px ;*/text-align:center;}
+.sign-in-header{ margin:0 0 1em 0;}
+.logo{ margin:0; padding:0;}
+.logo img{ margin:1.7em 0 0 0; width:3.75em;}
+.line{margin:1em 0 ; padding:0;}
+/*================= sign-in start here ===========================*/
+.sign-in-form{margin:0 auto ; width:63%; text-align:center;}
+.sign-up h1, .splash h1 ,.sign-in-form h1{ font-family:didot; font-size:2.5em; color:#fff; font-weight:normal; margin:0 0 1em 0; text-transform:uppercase; letter-spacing:0.0625em}
+.sign-in-form h2{ font-family:didot; font-size:2.5em; color:#fff; font-weight:normal; margin:0 0 2.1em 0;}
+.sign-in-form label {font-size: 1.25em;font-family: universltstdlightultracn; list-style-type: none; color: #a08f64; margin:0 0 1.6em; font-weight: normal;text-transform: uppercase; display: block; text-align:left; letter-spacing:0.04em;}
+.sign-in-form input[type="text"]{padding: 0.0625em 0.3em 0.0625em 0.0625em; border-bottom: 0.0625em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 2.1em; background: none;width: 100%; color:#fff; border-top:none; font-family:didot; font-size:1.56em; letter-spacing:0.0625em; margin-left:0;}
+.sign-in-form input[type="password"]{padding: 0 0.3em 0.0625em 0; border-bottom: 0.0625em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 3.1em; background: none;width: 100%; color:#fff; border-top:none;font-family:didot; font-size:1.56em; letter-spacing:0.0625em; margin-left:0;}
+.sign-in-form input[type="submit"]{width: 26%; color: #fff;text-transform: uppercase; background:#a08f64; padding:0.3em 0; font-family:universltstdlightultracn; font-size:1.87em;  font-weight:normal; border:none; cursor:pointer; margin:0.625em 0 0 0; letter-spacing:0.2em;}
+/*================= sign-in end here ===========================*/
+/*================= footer start here ===========================*/
+.footer{ background:url(../images/footer-bg.png) repeat-x center bottom;width:100%; min-height:3.1em; position:fixed; bottom:0;}
+.foot-cont{  width:84%; margin:0 auto; }
+.foot-left{ float:left; padding:1.25em 0 0 0;}
+.foot-left a{ font-family:Helvetica, Arial, sans-serif; font-size:1em; color:#fff; font-weight:normal; line-height:1em; list-style:none; text-decoration:none;}
+.foot-left a:hover{text-decoration:underline;}
+ul.foot-right {float: right; margin:0 ; padding:0 ;}
+ul.foot-right li{float: right ; margin:0 1.87em 0 0;  list-style:none;}
+ul.foot-right li img{margin:0.625em 0 0 0 ; cursor:pointer;}
+/*================= footer end here ===========================*/
+
+
+/*================= sign-up start here ===========================*/
+.sign-up{ margin:0 auto; padding:0; width:100%; overflow:hidden;}
+.make-account{ width:45.5%; margin:0 3.1em 0 0; float:left;}
+.make-account h2{font-family:didot; font-size:2.5em; color:#fff; font-weight:normal; margin:0 0 3.05em 0;}
+.make-account label {font-size: 1.25em;font-family: universltstdlightultracn; list-style-type: none; color: #a08f64; margin:0  0 1.31em 0; font-weight: normal;text-transform: uppercase; display: block; text-align:left;}
+.make-account input[type="text"]{padding: 0.125em 0.312em 0.125em 0.125em; border-bottom: 0.063em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 2.4em; background: none;width: 100%; color:#fff; border-top:none; font-family:didot; font-size:1.56em; margin-left:0;}
+.make-account input[type="password"]{padding: 0.125em 0.312em 0.125em 0.125em; border-bottom: 0.063em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 2.4em; background: none;width: 100%; color:#fff; border-top:none;font-family:didot; font-size:1.56em; margin-left:0;}
+.make-account input[type="submit"]{width: 49%; color: #fff;text-transform: uppercase; background:#a08f64; padding: 0.7em 0; font-family:universltstdlightultracn; font-size:1.87em;  font-weight:normal; border:none; cursor:pointer;}
+.clever-text{ width:43%; margin:0 ; float:left;}
+.clever-text h2{font-family:didot; font-size:2.5em; color:#bbb7b3; font-weight:normal; margin:0 0 2.05em 0;}
+.clever-text label {color: #A08F64;display: block;font-family: universltstdlightultracn; font-size: 1.25em;font-weight: normal; list-style-type: none; margin: 0  0 1.3em 0.5em; text-align: left; text-transform: uppercase;}
+
+
+.clever-text input[type="text"]{padding:  0.125em 0.312em 0.125em 0.125em; border-bottom: 0.063em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 2.4em; background: none; width: 100%; color:#fff; border-top:none; font-family:didot; font-size:1.56em; margin-left:0;}
+.clever-text input[type="submit"] {background: none repeat scroll 0 0 #A08F64; border: medium none; color: #FFFFFF; cursor: pointer; font-family: universltstdlightultracn; font-size: 1.87em;  font-eeight: normal; letter-spacing: 0.125em; margin: 1.4em 0 0; padding: 0.5em 0 ;text-align: center;  text-transform: uppercase; width: 30%;}
+.clever-text .mm input[type="text"]{ float:left; width: 33% !important;}
+.clever-text .dd input[type="text"]{float: left; margin: 0 0 2.45em 1.5em; width: 33%;}
+.clever-text .yy input[type="text"]{float: left; margin: 0 0 2.45em 1.5em;width: 33%;}
+/*================= sign-up end here ===========================*/
+
+
+/*================= splash start here ===========================*/
+.splash{margin:0 auto ; width:100%; text-align:center;}
+.splash p{margin:2.1em 0 3.4em;text-align:center; font-family:didot; font-style:italic; letter-spacing:0.04em; font-size:1.87em; color:#fff;}
+.splash input[type="submit"]{width: 23.2%; color: #fff;text-transform: uppercase; background:#a08f64; padding: 0.5em 0; font-family:universltstdlightultracn; font-size:1.87em;  font-weight:normal; border:none; text-align:center; cursor:pointer;}
+/*================= splash end here ===========================*/
+
+/*================= things start here ===========================*/
+.sign-in-sec h2{font-family:didot; font-size:2.5em; color:#fff; font-weight:normal; margin:0 0 1em 0; letter-spacing:0.125em; line-height:1.87em;}
+.things{ width:76.4%;margin:0 auto;}
+ul.celebrate{border: solid 0.125em #a49c90; height:100%;  width:100%; margin:0 0 1.8em 0; overflow:hidden;}
+ul.celebrate li{ float:left;  width:24.9%; height:12.69em; background:url(../images/things-bg.png) repeat-x left top; border-left: solid 0.125em #a49c90;border-bottom: solid 0.125em #a49c90; margin:0; list-style:none;}
+.b-none{ border-left:none;}
+ul.celebrate li a{font-family: universltstdlight; font-size: 1.125em; font-weight: normal;line-height: 1.31em;text-decoration: none; color:#fff; text-align:center; vertical-align:central; padding:50% 0; display:block;}
+ul.celebrate li:hover{ background:url(../images/hover-bg.png) repeat-x left top;}
+ul.celebrate li a.active{ background:url(../images/hover-bg.png) repeat-x left top;}
+.things input[type="submit"]{width: 26%; color: #fff;text-transform: uppercase; background:#a08f64; padding: 0.25em 0; font-family:universltstdlightultracn; font-size:1.87em;  font-weight:normal; border:none; text-align:center; margin:0 0 1.31em 0; cursor:pointer;}
+.things h4{font-family:universltstdlight; font-size:0.875em; color:#fff; font-weight:normal; margin:0 ; letter-spacing:0.06em;}
+.bl-none{ border-left:none !important;}
+.b-none{ border-left:none !important; border-bottom:none !important;}
+.bb-none{border-bottom:none !important;}
+/*================= things end here ===========================*/
+
+/*================= SIGN-UP end here ===========================*/
+.tumbler {margin: 3.75em auto 0; text-align: left; width: 51%;}
+.text h2 { color: #FFFFFF; font-family: didot; font-size: 2.5em; font-weight: normal; letter-spacing: -0.0312em; line-height: 2.0125em; margin: 0.68em 0 1.5em;}
+.bottom {margin: 0 auto;text-align: center ;width: 51%;}
+.left-line { float: left; margin-right: 2.3em; margin-top: 1.81em;}
+.right-line { float: left;margin-top: 1.81em;}
+.tumbler p { color: #FFFFFF; font-family: arial; font-size: 1em; font-weight: normal; letter-spacing: 0.0312em; line-height: 1.68em; margin-top: 4em;}
+.tumbler h2 {color: #FFFFFF; font-family: arial; font-size: 1.25em; font-weight: normal; letter-spacing: -0.006em; line-height: 2em; margin-bottom: 1em;margin-top: 3.625em; text-align: center;}
+.tumbler h2 a {color: #FFFFFF; font-family: arial; font-size: 1.125em; font-style: italic; font-weight: normal; line-height: 1.125em; text-decoration: underline;text-transform: uppercase;}
+.middle { float: left; margin-right: 2.25em;}
+.middle img { cursor: pointer;float: left;margin-right: 0;}
+
+
+/*================= SIGN-UP end here ===========================*/
+
+
+/* ======dev check box display as image=======*/
+
+ul li { list-style:none; margin:0.312em 0; }
+input { margin:0 0 0 0.5em;}
+.my-custom-button { padding: 5.687em .0312em; background:#eee; margin-right: 0; background: url("../images/things-bg.png") repeat-x scroll left top transparent; border-bottom: 0.125em solid hsl(36, 10%, 60%); cursor: pointer; color: #fff;font-size:1.125em; font-weight: normal; line-height:1.312em; }
+.my-custom-button.selected {background: url("../images/hover-bg.png") repeat-x scroll left top transparent; }
+.custom-radio { background:#348b57; width:18.75em; padding:0.312em; color:#fff; }
+.custom-radio.selected { background:#21653d; }
+.disabled { opacity: .5; filter: alpha(opacity=50); }
+ul.celebrate li{ float:left;  width:100%; height:12.68em; background:url(../images/things-bg.png) repeat-x left top; border-left: solid 0.125em #a49c90;border-bottom: solid 0.125em #a49c90; margin:0; list-style:none;}
+
+
+/*@media only screen and (min-width: 320px) {
+.sign-up h1, .splash h1 ,.sign-in-form h1{font-size:20px;}
+.sign-in-sec h2{font-size:18px; letter-spacing:0;}
+.sign-in-form{width:90%;}
+.sign-in-form input[type="submit"]{width: 31%;}
+.foot-cont{  width:100%; margin:0 auto; }
+.make-account{ width:100%;}
+.clever-text{ width:100%; }
+.things{ width:100%;}
+ul.celebrate li a{ padding:25% 0;}
+.sign-in-sec {width:100%;}
+.splash p{margin:0 0 3.4em;font-size:12px;}
+.splash input[type="submit"]{width: 31%;padding: 0;}
+.text h2 { color: #FFFFFF; font-family: didot; font-size: 36px; font-weight: normal;  margin: 0.68em 0;}
+.text{ width:100%;}	
+.tumbler {width:97%; padding:0 1em; margin:0 auto;}
+.tumbler p { color: #FFFFFF; font-family: arial; font-size: 13px; font-weight: normal; letter-spacing: 0.5px; line-height: 1em; margin-top: 0;}
+.bottom {width: 100%;}
+.left-line {  margin-bottom: 2.3em; width:100%}
+.right-line {  margin-bottom: 1.81em; width:100%;}
+.middle{float: left;margin-right: 0; width:100%; padding:0 30%;}
+.sign-up{ margin:0 auto; padding:0; width:95%; overflow:hidden;}
+
+
+.make-account input[type="text"]{width: 95%;}
+.make-account input[type="password"]{width: 95%;}
+.clever-text input[type="text"]{width: 95%; }
+ul.celebrate{margin:0 auto; width:90%;}
+.things input[type="submit"]{margin:1.31em 0;}
+
+
+}
+
+@media only screen and (min-width: 481px) {
+
+.sign-in-form input[type="submit"] {width: 40%;}
+.sign-in-form{width:53%;}
+.sign-up{width:64%;}
+ul.celebrate li a {padding: 16% 0;}
+.things input[type="submit"] { width:19%;}
+.splash input[type="submit"]{width: 21%;}
+.middle{padding:0 37%;}
+.sign-up h1, .splash h1 ,.sign-in-form h1{  font-size:32px; }
+	
+}
+
+
+
+
+	
+
+@media only screen and (min-width: 640px) {
+.sign-in-form input[type="text"]{width: 86%; float:left;}
+.sign-in-form label {float:left;}
+.sign-in-form input[type="password"]{width: 86%; float:left;}
+.sign-in-form input[type="submit"] {width: 28%;}
+.sign-up { width: 96%;}	
+.make-account {width: 45%;}
+.clever-text { width: 50%;}
+.clever-text input[type="submit"] { width:33%}	
+ul.celebrate li {width:49.9%;}
+ul.celebrate li a {padding: 25% 0;}
+.things input[type="submit"] {width: 15%;}	
+.sign-up h1, .splash h1 ,.sign-in-form h1{  font-size:50px; }
+
+	}
+	
+@media only screen and (min-width: 768px) {
+	
+	
+	}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+
+
+
+

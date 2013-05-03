@@ -1,0 +1,136 @@
+@media only screen and (min-width: 300px) {
+.logo {left: 34.5%;}
+ul.left-list {float: left; margin: 9em 0 2em;}
+.user h3 {padding: 0 1.2em 0 0;}
+ul.left-list li{padding: 0 0 0 2em; float:left;}
+ul.right-list li a{margin: 0 0.9em 0 0;}
+ul.ballons li {text-align: center; width: 100%; margin-left:0;}
+.new-stuff {left: 5.5em; top: 44.5em;}
+.party-ballons h1 {font-size: 2.752em;}
+.fest-logo {top:5.25em;}
+.menu-left { clear: both; float: left; text-align: center;}
+.menu-right{ float: right; }
+ul.arrangements li h4 {margin:1em 0;}
+.fest-logo h1 { font-size:2em; margin:1em 0 0 0;}
+ul.menu-list li {margin:2em 0 0 0;padding: 0 0.5em;}
+.dot-img1,.dot-img2,.dot-img3{ display:none;}
+.dot-img1 {left: 5.5em;}
+.dot-img2 {left: 20em;}
+.dot-img3 {right: 5.4em;}
+ul.menu-list li h4 {left: 8.813em;}
+ul.menu-list li h3 {top:5em; left:10.3em;}
+ul.menu-list li h2 {left:4em; top:2.5em;}
+ul.menu-list li .play {left:10em;}
+ul.menu-list li input[type="submit"] { left:10em;}
+ul.menu-list li h1 {left:4em; top:3.5em;}
+ul.menu-list li input[type="button"] {left:9em;}
+ul.arrangements li {border-left:none; width:100%; margin:0; padding:0; border-top:1px solid #E2DDD0;}
+ul.menu-list {margin: 0 auto;padding: 0;}
+.foot-left { margin-bottom: 1em; width: auto;}
+ul.left-sec li { float: left; margin: 0 0 0 3.3em;}
+.foot-right { margin-bottom: 1em; width: auto;}
+.foot-logo { padding: 0 8em;}
+.social-icons { width: 37%;}
+}
+@media only screen and (min-width: 480px) {
+.menu{ width: 80%;}
+.logo{left: 34.5%;}
+.user h3{padding: 0 1.2em 0 0;}
+ul.left-list{margin: 9em 0 2em; float:left;}
+ul.left-list li{padding: 0 0 0 4em; float:left;}
+ul.right-list li a{  margin: 0 1.5em 0 0;}
+ul.right-list{margin: 1em 0 2em; width: 100%;}
+.new-stuff {left: 9em;}
+.foot-left{width:auto; margin-bottom:1em;}
+ul.left-sec{padding: 0 0 1em;}
+ul.left-sec li {margin: 0 0 0 3em;}
+ul.left-bot li {margin: 0 5em 0 0;}
+.foot-right{width:auto; margin-top:1em;}
+.m-l-1{margin-left:0 !important;}
+ul.le-sub-links li{margin: 0 5em 0 0;}
+ul.ri-sub-links{float: right;}
+ul.ri-sub-links li{ margin:0 4em 0 1em;}
+.social-icons{width: 37%;}
+.foot-logo{padding: 0 8em;}
+	}
+@media only screen and (min-width: 550px) {
+ul.ballons li {width: 50%;}
+.new-stuff {left:2.3em ; top: 24.5em;}
+ul.menu-list li {padding: 0}
+ul.arrangements li { border-top:none; width: 29%; border-left:1px solid #E2DDD0; margin:2em 0 0 0; padding:0 1em;}
+.dot-img1, .dot-img2, .dot-img3 {display:block;}
+.dot-img1 {left: 4.5em;}
+.dot-img2 {left: 18em;}
+}
+@media only screen and (min-width: 769px) {
+ul.ballons li { width: 33%;}
+.new-stuff {left: 35.5em; top: 4.5em;}
+.fest-logo h1 {font-size: 4em; margin: 0;}
+ul.menu-list {width: 98%;}
+ul.menu-list li:first-child {padding:0 1em 0 0; margin:1em 0 0 0;}
+ul.menu-list li{ margin:1em 0 0 0;}
+ul.arrangements li {border-left: 1px solid #E2DDD0; margin: 2em 0; padding: 0 1em; width: 30%;}
+.dot-img1, .dot-img2, .dot-img3 { display: block;}
+ul.arrangements li:last-child {padding-right: 0;}
+.dot-img1 { left: 6.5em;}
+.dot-img2 {left: 24em;}
+.dot-img3 { right: 8em;}
+}
+@media only screen and (min-width: 868px) {
+ul.ballons li {width: 25%;}
+.new-stuff {left: 29em;}
+.dot-img1, .dot-img2, .dot-img3 {display: block !important;}
+.dot-img1 {left: 8em;}
+.dot-img2 {left: 27em;}
+.dot-img3 {right: 10em;}
+}
+@media only screen and (min-width: 961px) {
+ul.ballons li {width: 20%;}
+.new-stuff { left: 25em;}
+ul.menu-list { width: 100%;}
+ul.menu-list li {padding: 0 0 0 1em; width: 32%;}
+ul.menu-list li h3 {left: 7.3em; top: 2em;}
+ul.menu-list li h1 { left: 2em; top: 2.5em;}
+ul.menu-list li h4 {left: 6.813em;}
+ul.menu-list li h2{ left:3em;} 
+ul.menu-list li:first-child {padding: 0;}
+ul.menu-list li .play { left: 8em;}
+ul.menu-list li input[type="button"] { left: 7em;}
+ul.menu-list li h1 span {left:1em;}
+ul.menu-list li input[type="submit"] {left: 7em;}
+.dot-img1 { left: 8em;}
+.dot-img2 { left: 30em;}
+.dot-img3 {right: 11.5em;}
+}
+
+@media only screen and (min-width: 1200px) {
+.menu{ width: 80%;}
+.logo{left: 43%;}
+.user h3{padding: 0 1.9em 0 0;}
+ul.left-list{margin: 2.6em 0 2em; float:left;}
+ul.left-list li{padding: 0 0 0 3.5em; float:left;}
+ul.right-list li a{ margin: 0 0 0 2em;}
+ul.right-list{margin:2.6em 0 2em; width:auto;}
+.new-stuff { left: 31.5em;}
+ul.menu-list li h3 { left: 10.3em;}
+ul.menu-list li h1 {left: 4em;}
+ul.menu-list li h4 {left: 9.813em;}
+ul.menu-list li h2 {left: 4.5em;}
+ul.menu-list li .play {left: 11em;}
+ul.menu-list li input[type="button"] { left: 10em;}
+ul.menu-list li input[type="submit"] { left: 11em;}
+.dot-img1 { left: 10.5em;}
+.dot-img2 {left: 37em;}
+.dot-img3 {right: 11.5em;}
+ul.arrangements li { border-top:none; width:29.5%; padding:0 2em;}	
+.foot-left{width: 41%;}
+ul.left-sec{padding: 0 0 2em;}
+ul.left-sec li {margin: 0 0 0 5.3em;}
+ul.left-bot li {margin: 0 2em 0 1em;}
+.foot-right{width: 40%;}
+ul.le-sub-links li{margin: 0 3em 0 1em;}
+ul.ri-sub-links{float:left;}
+ul.ri-sub-links li{ margin:0 2em 0 1em;}
+.social-icons{width: 12%;}
+.foot-logo{padding: 0 2.5em;}
+}

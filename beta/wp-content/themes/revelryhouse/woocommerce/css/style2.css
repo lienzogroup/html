@@ -1,0 +1,304 @@
+
+	form.login {
+		display: block !important;
+	}
+/* HEADER *****************************************************/
+.nav-container .affix {
+	top: 29px;
+	border-top: 1px solid #555555;
+}
+/* USER TOP OF PAGE */
+#rt_user_header {
+		background: #000;
+		width: 100%;
+		height: 19px;
+		margin: 0 auto;
+		position: fixed;
+		z-index: 9999;
+		font-family: 'Univers LT W01 45 Light';
+		padding: 5px 10px;
+		z-index: 9999;
+}
+#rt_user_header > div{
+	width:960px;
+	margin: 0 auto;
+}
+	#rt_user_header a{
+		color:#bfb497;
+		font-size:16px
+	}
+	/* RIGHT SIDE # OF ITEMS IN CART */
+	#rt_user_header a#cart{
+		float: right;
+	}
+		#rt_user_header a#cart #items{
+			color: #000;
+			background: #bfb497;
+			padding: 0px 6px;
+		}
+	/* LEFT SIDE USER */
+		#rt_user_header #option{
+			background: #bfb497;
+			position: fixed;
+			padding: 10px;
+			top: 24px;
+			margin-left: 38px;
+			border-radius: 4px;
+			display: none;
+		}
+		#rt_user_header #option a{
+			color: #000;
+			display: block;
+			padding: 5px 15px;
+		}
+		#rt_user_header #option a:hover{
+			color: #FFF;
+		}
+/* HEADER *****************************************************/
+
+.process_logo {
+position: absolute;	
+text-align: center;
+width: 100% !important;
+}
+
+.process_logo a{
+	position: absolute;
+    z-index: 9999;
+}
+.process_logo img {width:60px;}
+
+#process_nav {
+	height: 130px;
+	background-color: black;
+}
+ 
+#process_nav #nav_containter {
+	width: 100%;
+	position: absolute;
+	text-align: center;	
+	margin-top: 50px;
+	height:65px;
+ }
+ 
+#process_nav #nav_containter ul {
+	width: 960px;
+	margin: 0 auto;
+	height: 60px;	
+}
+ 
+  #process_nav #nav_containter ul li {
+	float: left;
+	text-align: left;
+	height: 100%;
+   }
+  #process_nav #nav_containter ul li:first-child {
+	background: url("../img/nav_seperator.png") no-repeat scroll right center transparent;
+	background-position: left;
+  }
+  #process_nav #nav_containter ul li a {
+	background: url("../img/nav_seperator.png") no-repeat scroll right center transparent;
+	background-position: right;
+    color: white;
+    font-style: italic;
+    padding: 12px 74px;
+    position: relative;
+    top: 20px;
+  }
+  
+  #process_nav #nav_containter ul li img {
+	margin-right: 38%;
+  }
+   
+/* HEADER *****************************************************/
+
+
+/******************************************************/
+/***************************************************************************/
+/* WOOCOMMERCE PAGE TITLE */
+#user_container,
+#process_container {
+}
+#user_container #title,
+#process_container #title {
+	height: 100px;
+	background: #f5f4f0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 3px double #e2ddd0;
+}
+#user_container #title h1,
+#process_container #title h1{
+	width: 100%;
+	position: relative;
+	top: 28px;
+	font-style: italic;
+}
+/* USER TEMPLATE HEADER*/
+#user_container #title > div{
+	width: 960px;
+	margin: 0 auto;
+}
+	#user_container #title div h1 {
+		float: left;
+		width: 20%;
+	}
+		#user_container #title div #user_menu { 
+			float: right;
+			width: 80%;
+			margin-top: 30px;
+		}
+			#user_container #title div #user_menu ul{ 
+				float: right;
+			}
+				#user_container #title div #user_menu li{ 
+					float: left;
+					list-style: none outside none;
+					margin: 0 5px;
+				}
+					#user_container #title div #user_menu a{ 
+						display: block;
+						font-size: 17px;
+						padding: 10px 15px;
+						text-transform: uppercase;
+					}
+/***************************************************************************/
+/* WOOCOMMERCE CONTENT CONTAINER */
+#user_container #content,
+#process_container #content{
+	width: 960px;
+	margin: 40px auto 0;
+	min-height: 430px;
+}
+	/* CART CONTENT */
+	#process_container #left{
+		width: 69%;
+		max-width: 69%;
+		height: 100%;
+		float:left;		
+	}												
+	/* RIGHT COLUMN */
+	#process_container #right{
+		float: left;
+		width: 31%;
+		text-align: center;
+	}
+/***************************/
+		/* CHECKOUT TOTALS */
+		#process_container .cart_totals{
+			text-align: center;
+			border: 10px outset black;
+			width: 250px;
+			padding: 2px;
+			font-size: 12px;
+			margin: 0 auto;
+		}
+		#process_container .cart_totals > div{
+			border: 1px solid black;
+		}
+			#process_container .cart_totals h2{
+				border-bottom: 1px solid #a08f64;
+				margin: auto;
+				font-family: 'Univers LT W01 45 Light' !important;
+				font-weight: bold;
+				padding: 10px !important;
+				width: 80%;
+			}
+			#process_container .cart_totals table{
+				width: 100%;
+			}
+				#process_container .cart_totals table th{
+					width: 45%;
+					text-align: right;
+					padding: 6px 15px 0 0;
+				}
+				#process_container .cart_totals table td{
+					text-align: left;
+					padding: 6px 0;
+					color: #999999;
+					letter-spacing: 1px;
+					font-size: 16px !important;
+				}
+				#process_container .cart_totals table td .amount{
+					color: #000;
+				}
+				#process_container .cart_totals #nextpage{
+					background: #a08f64;
+					display: block;
+					width: 80%;
+					padding: 10px;
+					font-size: 20px;
+					color: #fff;
+					margin: 7%;
+					font-weight: bold;
+				}
+					#process_container #right p#notyet{
+						text-align:center;
+					}
+					#process_container #right a.continue_shopping{
+						text-align: center;
+						color: #a08f64;
+						font-weight: bold;
+						display: block;
+						margin-top: -11px;
+					}
+				
+					#process_container .cart_totals #delivery{
+						background: none repeat scroll 0 0 #A08F64;
+						color: #FFFFFF;
+						font-size: 14px;
+						font-weight: bold;
+						height: 76px;
+						margin: 7%;
+						padding: 20px 10px;
+						width: 80%;
+						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				}	
+					#process_container .cart_totals #msg{
+						font-size: 20px;
+						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+						letter-spacing: 1px;
+						width: 65%;
+						margin: 20px auto;
+					}
+					#process_container #right #days{ 
+						font-size: 60px;
+						font-weight: normal;
+						margin: 0 15px;
+						position: relative;
+						top: 12px;
+					}
+					#process_container #right #display_day{ 
+						font-size: 18px;
+						font-weight: normal;
+						position: relative;
+						top: 22px;
+					}
+/***************************/
+/***************************************************************************/	
+	
+/***************************************************************************/
+		/* CART CONTENT EMPTY*/
+		.woocommerce-cart #cart_container.empty h2 {
+			font-size: 40px;
+			font-style: italic;
+			color: #999999;
+			margin: 0;
+			text-transform: none;
+			padding-top: 145px;
+		} 
+		.woocommerce-cart #cart_container.empty a {
+			letter-spacing: 2px;
+			color: #a08f64;
+			text-decoration: underline !important;
+		}
+
+#customer_details #billing_country_chzn,
+#customer_details #shipping_country_chzn
+ { 
+	/*
+	margin: 35px 0 0 -315px;
+    position: absolute;
+    width: 316px !important;
+	*/
+}

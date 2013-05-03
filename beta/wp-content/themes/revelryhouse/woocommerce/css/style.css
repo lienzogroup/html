@@ -1,0 +1,996 @@
+/*@font-face {
+	font-family: 'UniversLTW01-49LightUlt';	
+	src: url('../../font/universlt49lightultracondensed.ttf'),
+		  url('../../font/universlt49lightultracondensed.svg'),
+		  url('../../font/universlt49lightultracondensed.eot');  IE9+ */
+		  
+	/*font-family: 'Univers LT W01 45 Light';
+	src: url('http://s159842.gridserver.com/beta/wp-content/themes/revelryhouse/font/universlt49lightultracondensed.ttf'),
+		  url('http://s159842.gridserver.com/beta/wp-content/themes/revelryhouse/font/universlt49lightultracondensed.eot');  IE9+ 
+}*/
+/*@font-face {
+	font-family: 'Didot W01 Bold';
+	src: url('../../font/didothtfb24bold.ttf'),
+		  url('../../font/didothtfb24bold.svg'),
+		  url('../../font/didothtfb24bold.eot');  IE9+ 
+}*/
+div#mti_wfs_colophon{ display: none !important;}
+
+	form.login {
+		display: block !important;
+	}
+/* HEADER *****************************************************/
+.nav-container .affix {
+	top: 39px;
+	border-top: 1px solid #555555;
+	z-index: 9999;
+}
+/* USER TOP OF PAGE */
+#rt_user_header {
+		background: #000;
+		width: 100%;
+		height: 20px;
+		margin: 0 auto;
+		position: fixed;		
+		font-family: 'UniversLTW01-49LightUlt';
+		padding: 10px 0px;
+		z-index: 9999;	
+		top:0;	
+}
+#rt_user_header > div{
+	width:1100px;
+	margin: 0 auto;
+}
+	#rt_user_header a{
+		color: #BFB497;
+		font-size: 13px;
+		letter-spacing: 3px;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+	/* RIGHT SIDE # OF ITEMS IN CART */
+	#rt_user_header a#cart{
+		float: right;
+		text-transform:lowercase;
+	}
+		#rt_user_header a#cart #items{
+	background: none repeat scroll 0 0 #BFB497;
+    color: #000000;
+    letter-spacing: 0;
+    padding: 2px;
+    text-align: center;
+		}
+	/* LEFT SIDE USER */
+		#rt_user_header #option #profile{
+			border-top: 1px solid lightgray;
+		}
+		#rt_user_header #option{
+			background: #000;
+			position: fixed;
+			padding: 15px 10px;
+			top: 26px;
+			//margin-left: 38px;
+			border-radius: 4px;
+			display: none; 
+			border-radius: 0;
+			opacity: .8;
+			font-family: 'UniversLTW01-49LightUlt';
+			text-transform: uppercase;
+		}
+		#rt_user_header #option a{
+			color: #fff;
+			display: block;
+			padding: 10px 80px 10px 10px;
+			border-bottom: 1px solid lightgrey;
+			font-family: 'UniversLTW01-49LightUlt';
+			font-size: 20px;
+		}
+		#rt_user_header #option a:hover{			
+			color: darkkhaki;
+		}
+
+		
+/* HEADER *****************************************************/
+.process_logo {
+	position: absolute;	
+	text-align: center;
+	width: 50% !important;
+	z-index: 9999;
+	margin: 0 25%;
+}
+
+.process_logo img {width:50px;}
+
+#process_nav {
+	height: 140px;
+	background-color: black;
+}
+ 
+#process_nav #nav_containter {
+	width: 100%;
+	position: absolute;
+	text-align: center;	
+	margin-top: 50px;
+	height:65px;
+ }
+ 
+#process_nav #nav_containter ul {
+	width: 960px;
+	margin: 0 auto;
+	height: 60px;
+	background: url("../img/nav_seperator.png") no-repeat scroll left  transparent;	
+}
+ 
+  #process_nav #nav_containter ul li {
+	float: left;
+	text-align: left;
+	height: 100%;
+	background: url("../img/nav_seperator.png") no-repeat scroll right center transparent;
+	width: 20%;
+   }
+  #process_nav #nav_containter ul li:first-child {
+	
+  }
+  #process_nav #nav_containter ul li a {	
+		color: white;
+		font-style: italic;
+		height: 40px;
+		padding: 20px 0 0;
+		position: relative;
+		text-align: center;
+  }
+  
+  #process_nav #nav_containter ul li img {
+	margin-right: 38%;
+  }
+   
+/* HEADER *****************************************************/
+
+
+/******************************************************/
+/***************************************************************************/
+
+/* WOOCOMMERCE PAGE TITLE */
+#user_container{margin-top: 124px;}
+#condensed.container #user_container{margin-top: 104px;}
+#condensed.container #process_container{margin-top: 181px;}
+#user_container,
+#process_container {
+}
+#user_container #title,
+#process_container #title {
+	height: 100px;
+	background: #f5f4f0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 3px double #e2ddd0;
+}
+#user_container #title h1,
+#process_container #title h1{
+	width: 100%;
+	position: relative;
+	top: 28px;
+	font-style: italic;
+}
+/* USER TEMPLATE HEADER*/
+#user_container #title > div{
+	width: 960px;
+	margin: 0 auto;
+}
+	#user_container #title div h1 {
+		float: left;
+    text-align: left;
+    width: 50%;
+	}
+		#user_container #title div #user_menu { 
+			float: right;
+			width: 50% !important;
+			margin-top: 30px;
+		}
+			#user_container #title div #user_menu ul{ 
+				float: right;
+			}
+				#user_container #title div #user_menu li{ 
+					float: left;
+					list-style: none outside none;
+					margin: 0 5px;
+				}
+					#user_container #title div #user_menu a{ 
+						display: block;
+						font-size: 22px;
+						padding: 10px 15px;
+						text-transform: uppercase;
+						font-family: 'UniversLTW01-49LightUlt';
+						letter-spacing: 1px;
+						letter-spacing: 1px;
+					}
+					#user_container #title div #user_menu a.active{
+						color: #A08F64;
+					}
+/***************************************************************************/
+/* WOOCOMMERCE CONTENT CONTAINER */
+#user_container #content,
+#process_container #content{
+	width: 960px;
+	margin: 40px auto 0;
+	min-height: 430px;
+	margin-bottom: 80px;
+}
+	/* CART CONTENT */
+	#process_container #left{
+		width: 69%;
+		max-width: 69%;
+		height: 100%;
+		float:left;		
+	}												
+	/* RIGHT COLUMN */
+	#process_container #right{
+		float: left;
+		width: 31%;
+		text-align: center;
+	}
+/***************************/
+		/* CHECKOUT TOTALS */
+		#process_container .cart_totals{
+			text-align: center;
+			border: 10px solid black;
+			width: 250px;
+			padding: 2px;
+			font-size: 12px;
+			margin: 0 auto;
+		}
+		#process_container .cart_totals > div{
+			border: 1px solid black;
+		}
+			#process_container .cart_totals h2{
+				background: url("http://s159842.gridserver.com/beta/wp-content/themes/revelryhouse/woocommerce/img/header-bottom-line-1.jpg") no-repeat scroll center bottom / 150% 6px transparent;
+				margin: auto;
+				font-family: 'UniversLTW01-49LightUlt' !important;
+				padding: 10px 0px !important;
+				width: 30%;
+				letter-spacing: 1px;
+				color: #000 !important;
+			}
+			#process_container .cart_totals table{
+				width: 86%;
+				margin-top:30px;
+				margin-bottom:30px;
+			}
+				#process_container .cart_totals table th{
+					width: 45%;
+					text-align: right;
+					padding: 6px 15px 0 0;
+					font-family: 'UniversLTW01-47LightCn' !important;
+					font-weight:normal;
+					font-size: 15px;
+				}
+				#process_container .cart_totals table td{
+					text-align: right;
+					padding: 6px 0;
+					color: #999999;
+					letter-spacing: 1px;
+					font-size: 16px !important;
+					font-family: 'UniversLTW01-49LightUlt' !important;
+				}
+				#process_container .cart_totals table td .amount{
+					font-family: 'UniversLTW01-49LightUlt';
+					font-weight: normal;
+					font-size: 30px;
+				}
+				#process_container .cart_totals #nextpage{
+					background: #a08f64;
+					display: block;
+					width: 80%;
+					padding: 20px 8px;
+					font-size: 30px;
+					color: #fff;
+					margin: 7%;
+					font-weight: normal;
+					font-family: 'UniversLTW01-49LightUlt' !important;
+					letter-spacing: 2px;
+				}
+					#process_container #right p#notyet{
+						text-align:center;
+					}
+					#process_container #right a.continue_shopping{
+						text-align: center;
+						color: #a08f64;
+						font-weight: bold;
+						display: block;
+						margin-top: -11px;
+					}
+				
+					#process_container .cart_totals #delivery{
+						background: none repeat scroll 0 0 #A08F64;
+						color: #FFFFFF;
+						font-size: 14px;
+						font-weight: bold;
+						height: 76px;
+						margin: 7%;
+						padding: 20px 10px;
+						width: 80%;
+						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+					}
+					#process_container .cart_totals #msg{
+						font-size: 20px;
+						font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+						letter-spacing: 1px;
+						width: 65%;
+						margin: 20px auto;
+					}
+					#process_container #right #days{ 
+						font-size: 60px;
+						font-weight: normal;
+						margin: 0 15px;
+						position: relative;
+						top: 12px;
+					}
+					#process_container #right #display_day{ 
+						font-size: 18px;
+						font-weight: normal;
+						position: relative;
+						top: 22px;
+					}
+/***************************/
+/***************************************************************************/	
+	
+/***************************************************************************/
+		/* CART CONTENT EMPTY*/
+		#content #empty h2 {
+			font-size: 40px;
+			font-style: italic;
+			color: #999999 !important;
+			margin: 0;
+			text-transform: none;
+			padding-top: 145px;
+		} 
+		.woocommerce-cart #cart_container.empty a {
+			letter-spacing: 2px;
+			color: #a08f64;
+			text-decoration: underline !important;
+		}
+
+#customer_details #billing_country_chzn,
+#customer_details #shipping_country_chzn
+ { 
+	margin: 45px 0 0 0;
+    position: absolute;
+    width: 316px !important;
+}
+
+/*****************************************************/
+		/* MY PROFILE    >    PROFILE*/
+		#content #shipping #shipping_country, 
+		#content #billing #billing_country{
+			position: relative !important;
+			margin: 30px 0 0 -390px !important;
+			width: 390px !important;
+			border-radius: 0px;
+		}
+		
+		#profile label {
+			margin-top: 20px;
+		}
+		
+		#profile .change_password {			
+			font-family: 'UniversLTW01-49LightUlt';
+			font-size: 25px !important;
+		}
+		
+		/* MY PROFILE    >    BILLING*/		
+		#content #billing label,
+		#content #shipping label		{		
+			margin-bottom: -20px;
+		}
+		#content #billing input,
+		#content #shipping input{
+			font-family: 'Didot W01 Bold';
+			margin-bottom: 20px;
+		}
+		#billing #billing h3,
+		#shipping #billing h3{
+			font-family: 'Didot W01 Bold';
+			font-size: 35px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+		
+		
+		/* MY PROFILE    >    ORDERS*/
+	#orders table.shop_table th {
+		font-weight: normal;
+		line-height: 18px;
+		font-family: 'UniversLTW01-49LightUlt';
+		font-size: 25px;
+		letter-spacing: 1px;
+		width: 25%;
+		text-transform: uppercase;
+		}
+	#orders .order .button {
+		background-image: none;
+		font-family: 'UniversLTW01-49LightUlt';
+		border: none;
+		box-shadow: none;
+		color: white;
+		background-color: #a08f64;
+		text-shadow: none;
+		font-size: 20px;
+		font-weight: normal;
+		text-transform: uppercase;
+		border: 0;
+		border-radius: 0;
+		}
+	#orders table.shop_table, #orders table.shop_table td address {
+		line-height: 20px;
+	}
+	#orders table.shop_table, #orders table.shop_table td {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		border: none;
+		font-size: 17px;
+		border-bottom: 1px solid #e2ddd0;
+		padding-top: 15px;
+		letter-spacing: 1px;
+	}
+	#orders_details .order-info {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	#orders_details .order-info mark{
+		background-color: lightgoldenrodyellow;		
+	}
+	#orders table.my_account_orders {
+	}
+	
+	
+		
+		
+/******************************************************/
+		/* WOOCOMMERCE - CHECKOUT */
+		
+		
+		/*CART*/
+		table.shop_table {			
+			width: 650px !important;
+		}		
+		table.cart img, #content table.cart img {
+			height: 110px !important;
+			width: auto !important;
+		}
+		table.cart td{
+			padding: 30px 0;
+		}
+		
+		table.cart .coupon {
+			width: 230px;
+		}		
+		table.cart .coupon #coupon_code {
+			border: none !important;
+			box-shadow: none !important;
+			border-bottom: 1px solid !important;
+			border-radius: 0;
+			font-size: 25px;
+		}
+			/*cart items*/
+			
+		.shop_table .prodQty-seperator{
+			font-size: 30px !important;
+		}
+		.shop_table .product-price, .shop_table .cart_table_item span {
+			font-family: 'UniversLTW01-49LightUlt' !important;			
+		}
+		.shop_table .cart_table_item .amount, .shop_table .product-price{
+			font-size: 35px !important;			
+		}
+		
+			/*cart buttons*/
+		table.cart .coupon .button , table.cart .button{
+			background: #a08f64 !important;
+			padding: 10px 15px !important;
+			font-size: 20px !important;
+			color: #fff !important;
+			border: none !important;
+			border-radius: 0 !important;
+			font-weight: normal !important;
+			text-transform: uppercase !important;
+			font-family: 'UniversLTW01-49LightUlt' !important;
+			letter-spacing: 1px;
+			text-shadow: none !important;
+		}
+		
+		table.cart td.actions {
+			colspan: 5;
+		}
+		
+		
+		form.checkout  div.col2-set .col-1,
+		form.checkout  div.col2-set .col-2{
+			/*float: none; 
+			width: 100%;*/
+		}
+		
+		
+			/*----BILLING/SHIPPING forms----*/
+		form.checkout #customer_details h3 {
+			font-size: 25px;
+			text-transform: uppercase;			
+		}		
+		form.checkout .form-row label{ /*label*/
+			text-transform: uppercase;
+			margin: 0 0;
+			color: #A08F64;
+			font-family: 'UniversLTW01-49LightUlt';			
+			font-size: 18px;	
+		}
+		
+		form.checkout .form-row input{ /*input*/
+			border: none;
+			border-bottom: 1px solid;
+			border-radius: 0;
+			font-size: 32px;			
+			font-family: 'Didot W01 Bold';
+		}
+		
+		form.checkout #billing_state_field label, form.checkout #shipping_state_field label{ /*state field*/
+			margin-bottom: 0px !important;
+		}			
+		
+		form.checkout #billing_state_field, form.checkout #shipping_state_field {
+			margin-top: -10px;
+		}
+		
+		#billing #billing_state_field, #shipping #shipping_state_field {
+			margin-top: -10px;
+		}
+		#billing #billing #billing_state_field label,#shipping #billing #shipping_state_field label{
+			margin-bottom: 10px !important;
+		}
+		
+		form.checkout .form-row .input-checkbox {
+			margin: 0 !important;
+		}
+		
+		form.checkout #billing_country_field, /*country */
+		form.checkout #shipping_country_field{
+			float: none;
+			margin-top: 9px;
+			height: 70px;
+			border-bottom: 1px solid;
+		}
+		
+		form.checkout #billing_country_chzn a,
+		form.checkout #shipping_country_chzn a{
+			background: none;
+			border: none;
+			box-shadow: none;
+			font-size: 32px;
+			height: 40px;
+			font-family: 'Didot W01 Bold';
+		}
+		
+		#customer_details #billing_country_chzn .chzn-drop, 
+		#customer_details #shipping_country_chzn .chzn-drop {
+			width: 100% !important;
+		
+		}
+		#customer_details #billing_country_chzn, 
+		#customer_details #shipping_country_chzn {
+			margin: -50px 0 0 0px;
+			
+		}
+		#customer_details #billing_country_chzn input, 
+		#customer_details #shipping_country_chzn input{
+			width: 91% !important;
+		}
+		
+		form.checkout #billing_state_field, /*country */
+		form.checkout #shipping_state_field{
+			margin-top: 9px;
+			height: 70px;
+			border-bottom: 1px solid;
+		}
+		
+		form.checkout #billing_state_chzn a,
+		form.checkout #shipping_state_chzn a{
+			background: none;
+			border: none;
+			box-shadow: none;
+			font-size: 32px;
+			height: 40px;
+			font-family: 'Didot W01 Bold';
+		}
+		#customer_details #billing_state_chzn, 
+		#customer_details #shipping_state_chzn {
+			margin: -50px 0 0 0px;
+			
+		}
+		#customer_details #billing_state_chzn input, 
+		#customer_details #shipping_state_chzn input{
+			border: 1px solid #AAAAAA;
+			border-radius: 5px 5px 5px 5px;
+			font-size: 1em;
+		}
+		.chzn-container-single .chzn-drop {
+			width: 100%;
+		}
+		
+		form.checkout #customer_details #billing_state_field,
+		form.checkout #customer_details #shipping_state_field {
+			margin-top: -88px;
+		}		
+		
+		.checkout #shiptobilling {
+			float: none;
+			width: 45%;
+			margin-bottom: 20px;
+		}
+		
+		.checkout #shiptobilling label {
+			float: left;
+			font-size: 20px;
+			margin-top: -20px;
+		}
+		
+		
+		/*PAYMENT**************************/
+		#payment {
+			background: none !important;
+			border-radius: 0 !important;
+		}		
+		#payment table.shop_table {
+			border: none !important;
+			border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+			font-size: 15px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		
+		/*payment methods*/		
+		#payment .payment_box p, #payment ul.payment_methods label{
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		table.shop_table td.product-quantity {
+			text-align: left !important;
+		}
+		
+		#payment #order_review table.shop_table thead th{
+			font-family: 'UniversLTW01-49LightUlt';
+			color: #a08f64;
+			text-transform: uppercase;
+			font-size: 25px;
+			font-weight: normal;
+			letter-spacing: 2px;
+		}
+		#payment #order_review table.shop_table tfoot th, #order_review table.shop_table strong,#order_review table.shop_table tfoot td {
+			font-weight: normal !important;
+		}
+		#payment #order_review_heading {
+			font-size: 25px;
+			text-transform: uppercase;
+		}
+		
+		#left table.checkout_order_details,#left table.checkout_order_details a {			
+			border-radius: 0 !important;						
+		}			
+		
+		#left table.checkout_order_details{
+			padding: 5px 0px;			
+		}
+		
+		/*customer details*/
+		.addresses .title h3 {			
+			color: #a08f64 !important;
+			font-size: 30px !important;
+			height: 25px;
+			font-family: 'UniversLTW01-49LightUlt';
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+		.addresses .title h2 {
+			color: #a08f64 !important;
+			font-size: 25px !important;			
+			height: 25px;
+		}
+		.addresses header {
+			border-top: 1px solid rgba(0,0,0,0.1) !important;
+		}
+		.customer_details dt {
+			margin: 10px !important;
+			font-family: 'UniversLTW01-49LightUlt';
+			font-size: 25px;
+			font-weight: normal;
+			color: #a08f64;			
+			text-transform: uppercase;
+		}
+		#payment #place_order {
+			background: #a08f64;
+			border: none !important;
+			border-radius: 0 !important;
+			box-shadow: none !important;
+			text-shadow: none;
+			font-size: 20px;
+			font-weight: normal;
+			text-transform: uppercase;
+			padding: 15px 30px;
+			font-family: 'UniversLTW01-49LightUlt';
+			letter-spacing: 2px;
+		}
+		
+		
+		/******profile*****/
+		.addresses .title a {			
+			background: #a08f64;
+			margin-top: 10px !important;
+			color: white;
+			padding: 10px 25px;
+			font-size: 20px;
+			font-family: 'UniversLTW01-49LightUlt';
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			}
+			
+		.addresses address {
+			font-family: 'Didot W01 Bold';
+			font-size: 32px !important;
+			line-height: 45px;
+		}
+		
+		/** SHIPPING / BILLING **/
+		
+		#content h2{
+			color: #a08f64;
+			font-size: 25px;
+			font-family: 'UniversLTW01-49LightUlt';
+			letter-spacing: 2px;
+		}
+		
+		/* THANK YOU */
+		#thank_you {
+			font-size: 32px;
+			font-style: italic;
+		}
+		#payment_none p{
+			width: 600px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 16px;
+		}
+		a#gohome {
+			left: 410px !important;
+			font-family: 'UniversLTW01-49LightUlt' !important;
+			font-size: 25px;
+			letter-spacing: 1px !important;
+		}
+		
+		dl.customer_details, table.checkout_order_details {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		.addresses p{
+			margin-left: 12px;			
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 15px;
+		}
+		/* order details */
+		.order_details {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		
+		table.checkout_order_details thead th{
+			font-family: 'UniversLTW01-49LightUlt';
+			font-size: 25px;
+			text-transform: uppercase;
+			text-shadow: none;
+			font-weight: normal;
+			color: #a08f64;
+		}
+		table.checkout_order_details th,table.shop_table tfoot td{
+		font-weight: normal;
+		}
+		
+		/****edit shipping address***/
+		#content #billing .button {
+			background: none repeat scroll 0 0 #A08F64;
+			border: medium none !important;
+			box-shadow: none;
+			color: white;
+			font-weight: normal !important;
+			text-transform: uppercase;
+			font-family: 'UniversLTW01-49LightUlt';
+			text-shadow: NONE;
+			letter-spacing: 2px;
+			padding: 10px 30px;
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		
+		#left .col2-set {
+			margin-bottom: 60px;  
+		}
+		
+		#payment .input-radio {
+			float: left;
+		}
+		
+		
+		
+		
+		
+		/* SLIDER PAGE */
+			/* USER PROFILE */
+			#user_container #content {
+				overflow: hidden;
+			}
+			#user_container #content #sliderContainer{    
+				left: 0px;
+				position: relative;
+				width: 4800px;
+				overflow: hidden;
+			}
+			#user_container #sliderContainer > div#profile,
+			#user_container #sliderContainer > div#billing,
+			#user_container #sliderContainer > div#shipping,
+			#user_container #sliderContainer > div#orders,
+			#user_container #sliderContainer > div#orders_details{
+				width: 820px;
+				padding: 0 70px;
+				float: left;    
+				margin-left: 0px;
+				min-height: 500px;
+			}
+			#user_container #sliderContainer > div#profile{}
+			#user_container #sliderContainer > div#billing{}
+			#user_container #sliderContainer > div#shipping{}
+			#user_container #sliderContainer > div#orders table{ width: 100% !important}
+			#user_container #sliderContainer > div#orders_details table{ width: 100% !important}
+			
+			/* PROCESS ORDER */
+			#process_container #content #left{
+				 float: left;
+				overflow: hidden;
+				width: 662px;
+			}
+			#process_container #content #left #sliderContainer p#errmsg {
+				width: 671px;
+			}
+			
+			#process_container #content #left #sliderContainer{ 
+				left: 0;
+				position: relative;
+				/*top: -60px;*/
+				width: 1987.2px;
+			}
+			#process_container #content #left #sliderContainer .content form.checkout #customer_details{
+				width: 1324.8px;
+				float: left;
+			}			
+			#process_container #content #left #sliderContainer .content form.checkout #customer_details #billing,
+			#process_container #content #left #sliderContainer .content form.checkout #customer_details #shipping{
+				width: 662.4px;
+				float: left;
+			}			
+			#process_container #content #left #sliderContainer .content form.checkout #payment {
+				width: 662.4px;
+				float: left;
+			}
+		/* SLIDER PAGE */
+		
+		
+		/* ADD TO CART BUTTON */
+		li#add_to_cart_button {
+			background: none repeat scroll 0 0 #A08F64;
+			height: 50px;
+			padding: 15px 0;
+			position: relative;
+			top: -20px;
+			width: 165px;
+		}
+		li#add_to_cart_button a{
+			background: none repeat scroll 0 0 transparent !important;
+			border-radius: 0 0 0 0;
+			font-family: 'UniversLTW01-49LightUlt' !important;
+			font-size: 22px;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 50px !important;
+			color: #FFFFFF !important;
+			box-shadow: none;
+			border: none;
+			padding: 0 25px;
+		}
+		li#add_to_cart_button div#price{
+			background: none repeat scroll 0 0 #FE7FAA;
+			border-radius: 56px 56px 56px 56px;
+			display: table-cell;
+			float: right;
+			font-size: 20px;
+			margin: -60px 0 0 137px;
+			padding: 10px 10px;
+			position: absolute;
+			font-family: 'UniversLTW01-49LightUlt';
+		}
+
+		li#add_to_cart_button div#price span{
+			font-size: 14px !important;
+			left: -2px;
+			position: relative;
+			top: -2px;
+		}
+/**********************************************************************************************/
+#user_login input[type=submit],
+#user_join input[type=submit]{
+font-family: 'UniversLTW01-49LightUlt' !important;
+}
+/* header and footer*/   
+#nav-wrapper ul li a:hover  {
+	color: gray; 
+}
+
+#nav-wrapper ul li a{
+	font-family: 'UniversLTW01-47LightCn';
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+	padding: 0px 0px 0px 3px;
+}
+
+.footer-menu-style a.footerlink,.footer-menu-style a.footerlink1  {
+	font-family: 'UniversLTW01-47LightCn';
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}		
+.footer-menu-style a.footerlink1 {
+	font-size: 12px;
+	text-transform: none;
+}
+.container section#latest-news .row {
+	text-align:center;
+}
+#latest-articles article, #latest-work article{
+	padding: 10px;
+}
+
+
+
+
+
+/*		Cart Notification Message			*/
+		#cart_notification_container {
+			width: 960px !important;			
+			height: 17px;
+			display: none;
+		}
+		
+		#cart_notification_message {						
+			
+			padding: 0 15px;
+			margin: -20px 90px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			letter-spacing: 2px;
+			font-size: 13px;
+			float: right;
+			background-color: #fe7faa;
+						
+		}
+/*		End Cart Notification Message	*/
+
+.container section.middle {
+	width: 100%;
+}
+
+
+a.read-more {
+	background: none repeat scroll 0 0 #a08f64;
+	/* border: 16px solid #FFFFFF; */
+	color: #FFFFFF !important;
+	font-family: 'UniversLTW01-49LightUlt' !important;
+	font-size: 20px !important;
+	letter-spacing: 1px;
+	outline: 1px solid #FFFFFF;
+	padding:15px;
+	text-align: center;
+	width: 110px;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-top:20px;
+	border-radius: 0px;
+	border: none;
+}
+a.read-more:hover{
+background:#6B6043;
+}

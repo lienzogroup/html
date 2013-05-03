@@ -1,0 +1,194 @@
+html, body, div, ul, li, input, select, textarea, form, p, dl, dt, dd, h1, h2, h3, h4, h5, h6 {	margin:0;	padding:0;  }
+body {background-color:#000;font-family:Arial, Helvetica, sans-serif; font-size:1em;  color:#000;  padding-bottom:6.5em; }
+/*=============== Global Styles starts here =========================*/
+
+.body {opacity:0.45;
+filter:alpha(opacity=45) ;
+ /* For IE8 and earlier */ position:relative; }
+
+.sign-in-sec {width:100%; margin:0  auto;/* padding:0 238px ;*/text-align:center;}
+.sign-in-header{ margin:0 0 8px 0;}
+.logo{ margin:40px 0 0 0; padding:0;}
+.logo img{height: 80px;}
+.line{margin:18px 0px 0px 0px; padding:0;}
+.line img{height: 58px;}
+/*================= sign-in start here ===========================*/
+.sign-in-form{margin:0 auto ; width:63%; text-align:center;}
+.sign-up h1, .splash h1, .sign-in-form h1 {color: #FFFFFF; font-family:'Didot W01 Roman'; font-size: 60px; font-weight: normal; letter-spacing: 0.0625em;    margin: 0;  padding: 0 0 1em; text-transform: uppercase; line-height:60px;}
+.sign-in-form h2{ font-family:didot; font-size:2.5em; color:#fff; font-weight:normal; margin:0 0 2.1em 0;}
+.sign-in-form label {font-size: 1.25em;font-family: universltstdlightultracn; list-style-type: none; color: #a08f64; margin:0 0 1.6em; font-weight: normal;text-transform: uppercase; display: block; text-align:left; letter-spacing:0.04em;}
+.sign-in-form input[type="text"]{padding: 0.0625em 0.3em 0.0625em 0.0625em; border-bottom: 0.0625em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 2.1em; background: none;width: 100%; color:#fff; border-top:none; font-family:didot; font-size:1.56em; letter-spacing:0.0625em; margin-left:0;}
+.sign-in-form input[type="password"]{padding: 0 0.3em 0.0625em 0; border-bottom: 0.0625em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 3.1em; background: none;width: 100%; color:#fff; border-top:none;font-family:didot; font-size:1.56em; letter-spacing:0.0625em; margin-left:0;}
+.sign-in-form input[type="submit"]{width: 26%; color: #fff;text-transform: uppercase; background:url(../images/button-bg.png) repeat-x; width:; padding:0.3em 0; font-family:universltstdlightultracn; font-size:1.87em;  font-weight:normal; border:none; cursor:pointer; margin:0.625em 0 0 0; letter-spacing:0.2em;}
+/*================= sign-in end here ===========================*/
+/*================= footer start here ===========================*/
+.footer{ background:url(../images/footer-bg.png) repeat-x center bottom;width:100%; min-height:3.1em; position:fixed; bottom:0;}
+.foot-cont{  width:84%; margin:0 auto; }
+.foot-left{ float:left; padding:12px 0 0 0;}
+.foot-left a{ font-family:Helvetica, Arial, sans-serif; font-size:1em; color:#fff; font-weight:normal; line-height:1em; list-style:none; text-decoration:none;}
+.foot-left a:hover{text-decoration:underline;}
+ul.foot-right {float: right; margin:0 ; padding:0 ;}
+ul.foot-right li{float: right ; margin:0 1em 0 0;  list-style:none;}
+ul.foot-right li img{margin:7px 0 0 0 ; cursor:pointer;}
+/*================= footer end here ===========================*/
+
+
+/*================= sign-up start here ===========================*/
+.sign-up{ margin:0 auto; padding:0; width:100%; overflow:hidden;}
+.make-account{ width:45.5%; margin:0 3.1em 0 0; float:left;}
+.make-account h2{font-family:didot; font-size:2.5em; color:#fff; font-weight:normal; margin:0 0 3.1em 0;}
+.make-account label {font-size: 20px;font-family:'UniversLTW01-49LightUlt';list-style-type: none; color: #a08f64; margin:0  0 1.31em 0; font-weight: normal;text-transform: uppercase; display: block; text-align:left; letter-spacing:2px; line-height:20px;}
+.make-account input[type="text"]{padding: 0.125em 0.312em 0.125em 0.125em; border-bottom: 0.063em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 2.4em; background: none;width: 100%; color:#fff; border-top:none; font-family:'didot'; font-size:25px; margin-left:0; line-height:25px;}
+.make-account input[type="password"]{padding: 0.125em 0.312em 0.125em 0.125em; border-bottom: 0.063em solid #fff;  border-left: 0; border-right: 0; margin-bottom: 2.4em; background: none;width: 100%; color:#fff; border-top:none;font-family:'didot'; font-size:25px; margin-left:0; line-height:25px;}
+.make-account input[type="submit"]{width: 49%; color: #fff;text-transform: uppercase;background:url(../images/button-bg.png) repeat-x; padding: 0.7em 0; font-family:universltstdlightultracn; font-size:1.87em;  font-weight:normal; border:none; cursor:pointer;}
+.clever-text{ width:43%; margin:0 ; float:left;}
+.clever-text h2{font-family:didot; font-size:2.5em; color:#bbb7b3; font-weight:normal; margin:0 0 2.05em 0;}
+.clever-text label {color: #A08F64;display: block;font-family:'UniversLTW01-49LightUlt'; font-size: 20px;font-weight: normal; list-style-type: none; margin: 0  0 1.3em 0; text-align: left; text-transform: uppercase; letter-spacing:2px; line-height:20px;} 
+.clever-text input[type="text"]{padding:  0.125em 0.312em 0.125em 0.125em; border-bottom: 0.063em solid #d7d7d7;  border-left: 0; border-right: 0; margin-bottom: 2.4em; background: none; width: 100%; color:#d7d7d7; border-top:none; font-family:'didot'; font-size:25px; margin-left:0; line-height:25px;}
+.clever-text input[type="submit"] {background:url(../images/button-bg.png) repeat-x; border: medium none; color: #FFFFFF; cursor: pointer; font-family: universltstdlightultracn; font-size: 1.87em;  font-eeight: normal; letter-spacing: 0.125em; margin: 1.4em 0 0; padding: 0.5em 0 ;text-align: center;  text-transform: uppercase; width: 30%;}
+.clever-text .mm input[type="text"]{ float:left; width: 33% !important;}
+.clever-text .dd input[type="text"]{float: left; margin: 0 0 2.45em 1.5em; width: 33%;}
+.clever-text .yy input[type="text"]{float: left; margin: 0 0 2.45em 1.5em;width: 33%;}
+.mm{float:left; margin:0 0 1.4em 0; width: 29% !important;}
+.dd{float: left; margin: 0 0 20px 20px !important; width: 29% !important;}
+.yy{float: left; margin: 0 0 20px 20px !important; width: 29% !important;}
+/*================= sign-up end here ===========================*/
+
+
+/*================= splash start here ===========================*/
+.splash{margin:0 auto ; width:100%; text-align:center;}
+.splash p { color: #FFFFFF; font-family: didotItalic; font-size: 30px !important; letter-spacing: 0.1em; line-height: 38px !important; margin: 0 !important; padding: 0 0 2em 0 !important;}
+.splash input[type="submit"]{width: 23.2%; color: #fff;text-transform: uppercase; background:background:url(../images/button-bg.png) repeat-x; padding: 0.5em 0; font-family:universltstdlightultracn; font-size:1.87em;  font-weight:normal; border:none; text-align:center; cursor:pointer;}
+/*================= splash end here ===========================*/
+
+/*================= things start here ===========================*/
+.sign-in-sec h2{font-family:didot; font-size:40px; color:#fff; font-weight:normal; margin:0 0 1em 0; letter-spacing:2px; line-height:50px;}
+.things{ width:83.899%;margin:0 auto;}
+ul.celebrate{border:none;  width:100%; margin:0 0 1.8em 0; overflow:hidden;}
+ul.celebrate li:first-child{border-top:1px solid rgba(255, 255, 255, .4);}
+ul.celebrate li + li{border-top:1px solid rgba(255, 255, 255, .4);}
+ul.celebrate li + li + li + li{border-right:1px solid rgba(255, 255, 255, .4);}
+ul.celebrate li + li + li + li + li{border-top:none; border-right:none;}
+ul.celebrate li + li + li + li + li + li + li + li{border-right:1px solid rgba(255, 255, 255, .4);}
+ul.celebrate li{ float:left;  width:100%; background:url(../images/things-bg.png) repeat-x left top; border-bottom:1px solid rgba(255, 255, 255, .4); border-left:1px solid rgba(255, 255, 255, .4); margin:0; list-style:none; }
+.b-none{ border-left:none;}
+ul.celebrate li a{font-family: universltstdlight; font-size: 1.125em; font-weight: normal;line-height: 1.31em;text-decoration: none; color:#fff; text-align:center; vertical-align:central; padding:50% 0; display:block;}
+ul.celebrate li:hover{ background:url(../images/hover-bg.png) repeat-x left top;}
+ul.celebrate li a.active{ background:url(../images/hover-bg.png) repeat-x left top;}
+.things input[type="submit"]{/*width: 26%; */color: #fff;text-transform: uppercase; background:url(../images/button-bg.png) repeat-x; font-family:universltstdlightultracn; font-size:30px;  font-weight:normal; border:none; text-align:center; margin:0 0 1.31em 0; cursor:pointer; height:60px;}
+.things h4{font-family:universltstdlight; font-size:0.875em; color:#fff; font-weight:normal; margin:0 ; letter-spacing:0.06em;}
+.bl-none{ border-left:none !important;}
+.b-none{ border-left:none !important; border-bottom:none !important;}
+.bb-none{border-bottom:none !important;}
+/*================= things end here ===========================*/
+
+/*================= SIGN-UP end here ===========================*/
+.tumbler {margin: 3.75em auto 0; text-align: left; width: 51%;}
+.text h2 { color: #FFFFFF; font-family: didot; font-size: 40px; font-weight: normal; letter-spacing: -0.0312em; line-height: 1em; margin: 0.68em 0;}
+.bottom {margin: 0 auto;text-align: center ;width: 51%;}
+.left-line { float: left; margin-right: 2.3em; margin-top: 1.4em;}
+.right-line { float: left;margin-top: 1.4em;}
+.tumbler p { color: #FFFFFF; font-family: arial; font-size: 1em; font-weight: normal; letter-spacing: 0.0312em; line-height: 1.68em; margin-top: 4em;}
+.tumbler h2 {color: #FFFFFF; font-family: didotItalic; font-size: 20px; font-style:italic; font-weight: normal; letter-spacing: 2px; line-height: 2em; margin-bottom: 1em;margin-top: 3.625em; text-align: center;}
+.tumbler h2 a {color: #FFFFFF; font-weight: normal; line-height: 1.125em;}
+.middle { float: left; margin-right: 2.25em;}
+.middle img { cursor: pointer;float: left;margin-right: 0;}
+.join{clear:both; margin:0px auto 80px;}
+
+/*================= SIGN-UP end here ===========================*/
+
+
+/* ======dev check box display as image=======*/
+
+ul li { list-style:none; margin:0.312em 0; }
+input { margin:0 0 0 0.5em;}
+.my-custom-button { padding: 5em 0 5em 0; background:#eee; margin-right: 0; background: url("../images/things-bg.png") repeat-x scroll left top transparent; border-bottom: 0.125em solid hsl(36, 10%, 60%); cursor: pointer; color: #fff;font-size:18px; font-weight: normal; line-height:18px; font-family:'Univers LT W01 45 Light'; letter-spacing:1.5px; }
+.my-custom-button.selected {background: url("../images/hover-bg.png") repeat-x scroll left top transparent; }
+.custom-radio { background:#348b57; width:18.75em; padding:0.312em; color:#fff; }
+.custom-radio.selected { background:#21653d; }
+.disabled { opacity: .5; filter: alpha(opacity=50); }
+.canvasloader{ position:absolute; top:50%; left:50%; display: none;}
+
+a.fb-icon{background: url(../images/fb-op.png) no-repeat left top; width:55px; height:55px; margin:0; padding:0; float:left;}
+a.fb-icon:hover{background: url(../images/fb-ov.png) no-repeat left top; width:55px; height:55px; margin:0; padding:0;float:left;}
+
+a.tw-icon{background: url(../images/tw-op.png) no-repeat left top; width:55px; height:55px; margin:0; padding:0;float:left;}
+a.tw-icon:hover{background: url(../images/tw-ov.png) no-repeat left top; width:55px; height:55px; margin:0; padding:0;float:left;}
+
+a.p-icon{background: url(../images/p-op.png) no-repeat left top; width:55px; height:55px; margin:0; padding:0;float:left;}
+a.p-icon:hover{background: url(../images/p-ov.png) no-repeat left top; width:55px; height:55px; margin:0; padding:0;float:left;}
+
+
+/* ====== End dev check box display as image=======*/
+@media only screen and (min-width: 320px) {
+.sign-in-form{width:90%;}
+.sign-in-form input[type="submit"]{width: 31%;}
+.foot-cont{ /* width:960px; */margin:0 auto; }
+.make-account{ width:100%;}
+.clever-text{ width:100%; }
+.sign-in-sec {width:100%;}
+.splash p{margin:0 0 3.4em; font-family: didotItalic;}
+.splash input[type="submit"]{width: 31%;padding: 0;}
+.text h2 { color: #FFFFFF; font-family: 'Didot W01 Bold Italic' !important; font-weight: normal;  margin: 1em 0; line-height:1em;}
+.text{ width:100%;}	
+.tumbler {width:97%; padding:0 1em; margin:0 auto;}
+.tumbler p { color: #FFFFFF; font-family:'Univers LT W01 45 Light' !important; font-weight: normal; letter-spacing: 0.5px; line-height: 1em; margin-top: 0; font-size:16px !important; }
+.bottom {width: 100%;}
+.left-line {  margin-bottom: 2.3em; width:100%}
+.right-line {  margin-bottom: 1.81em; width:100%;}
+.middle{float: left;margin-right: 0; width:100%; padding:0 30%;}
+.sign-up{ margin:0 auto; padding:0; width:95%; overflow:hidden;}
+.make-account input[type="text"]{width: 100%;}
+.make-account input[type="password"]{width: 100%;}
+.clever-text input[type="text"]{width: 100%; }
+.things input[type="submit"]{margin:1.31em 0; /*width:33%;*/	}
+.mm{width: 25%;}
+.dd{width: 25%;}
+.yy{width: 26% !important;}
+ul.celebrate{border-left:none; border-bottom:none ;}
+.my-custom-button {border-bottom:none !important;}
+.footer{ position:fixed;}
+.clever-text label { clear:both;}
+.foot-left a{ clear:both; text-align:center;}
+
+ul.foot-right li {margin:0 15px 0 0;}
+}
+
+@media only screen and (min-width: 481px) {
+
+.sign-in-form input[type="submit"] {width: 40%;}
+.sign-in-form{width:53%;}
+.sign-up{width:95%;}
+ul.celebrate li a {padding: 16% 0;}
+.things input[type="submit"] { /*width:19%;*/}
+.splash input[type="submit"]{width: 21%;}
+.middle{padding:0 37%;}
+	
+}
+
+
+
+
+	
+
+@media only screen and (min-width: 640px) {
+.sign-in-form input[type="text"]{width: 86%; float:left;}
+.sign-in-form label {float:left;}
+.sign-in-form input[type="password"]{width: 86%; float:left;}
+.sign-in-form input[type="submit"] {width: 28%;}
+.sign-up { width: 95%;}	
+.make-account {width: 42%;}
+.clever-text { width: 50%; overflow:hidden;}
+.clever-text input[type="submit"] { width:33%}
+ul.celebrate{ border-bottom:none; border-left:none;}
+ul.celebrate li { width: 24.7%;}
+.things input[type="submit"] {/*width: 15%;*/}	
+.left-line { margin-bottom: 2.3em; width: 19%;}
+.bottom{ float:right; width:78%;}
+
+.middle {float: left; margin-right: 36px; padding: 0 !important; width: 24%;}
+.right-line {margin-bottom: 1.81em; width: 19%; float:left;}
+@media only screen and (min-width: 768px) {
+	
+	
+	}

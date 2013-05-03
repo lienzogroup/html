@@ -1,0 +1,34 @@
+
+.woocommerce-cart {
+	
+}
+
+.woocommerce-cart .shop_table th {
+	display: none;
+}
+
+.woocommerce-cart .shop_table {
+	width: 700px;
+	border: none;
+	float: left;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+	width: 25%;
+	border: 1px solid brown;
+}
+
+.woocommerce-cart .shop_table .product-name {
+	font-family: DidotHTF;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.woocommerce-cart .shop_table .product-price {	
+	font-family: Univers LT Std 49 Light UltraCn;
+	font-size: 23px;
+	color: #999999;
+}
+
+

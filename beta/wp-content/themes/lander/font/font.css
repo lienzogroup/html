@@ -1,0 +1,39 @@
+@font-face {
+				font-family: 'UniversLTStd-Light';
+				src: url('universltstd45light.eot');
+				src: url('universltstd45light.eot?#iefix') format('embedded-opentype'),
+						 url('universltstd45light.woff') format('woff'),
+						 url('universltstd45light.ttf') format('truetype'),
+						 url('universltstd45light.svg#universltstd45light') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+@font-face {
+				font-family: 'UniversLTStd-LightCn';
+				src: url('fontscorecomuuniversltstd47lightcondensed.eot');
+				src: url('fontscorecomuuniversltstd47lightcondensed.eot?#iefix') format('embedded-opentype'),
+						 url('fontscorecomuuniversltstd47lightcondensed.woff') format('woff'),
+						 url('fontscorecomuuniversltstd47lightcondensed.ttf') format('truetype'),
+						 url('fontscorecomuuniversltstd47lightcondensed.svg#fontscorecomuuniversltstd47lightcondensed') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+@font-face {
+				font-family: 'Didot-HTF-B24-Bold';
+				src: url('didothtfb24bold.eot');
+				src: url('didothtfb24bold.eot?#iefix') format('embedded-opentype'),
+						 url('didothtfb24bold.woff') format('woff'),
+						 url('didothtfb24bold.ttf') format('truetype'),
+						 url('didothtfb24bold.svg#didothtfb24bold') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+@font-face {
+				font-family: 'UniversLT-LightUltraCondensed';
+				src: url('universlt49lightultracondensed.eot');
+				src: url('universlt49lightultracondensed.eot?#iefix') format('embedded-opentype'),
+						 url('universlt49lightultracondensed.woff') format('woff'),
+						 url('universlt49lightultracondensed.ttf') format('truetype'),
+						 url('universlt49lightultracondensed.svg#universlt49lightultracondensed') format('svg');
+				font-weight: normal;
+				font-style: normal;

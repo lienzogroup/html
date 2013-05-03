@@ -1,0 +1,23 @@
+
+**PLEASE TAKE NOTE**
+
+ThemeForest policy does not currently allow fonts to be included in the main download. Please refer to the notes here, or to the 'reboot_documentation.pdf' in the /documentation folder.
+The notes will guide you on how to use the 'Font Awesome' icon set with your theme.
+
+
+
+------------------------------------------------------------------------------------------------
+
+1 - Go to http://fortawesome.github.com/Font-Awesome/
+
+2 - Click on the button at the top of the page 'Download Font Awesome v2.0', and download the zip file to your desktop.
+
+3 - Unzip the file you just downloaded
+
+4 - Find the folder 'font' inside the un-zipped file, and copy the 4 files inside
+
+5 - Paste the 4 files into this folder /reboot/font/
+
+6 - You are now all ready. Enjoy these fantastic icons!!
+
+------------------------------------------------------------------------------------------------
